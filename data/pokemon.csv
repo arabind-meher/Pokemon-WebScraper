@@ -1,0 +1,1011 @@
+Index,Name,Type 1,Type 2,Species,Height,Weight,Ability 1,Ability 2,Ability H,HP,Attack,Defence,Sp_Attack,Sp_Defence,Speed,Total,Generation
+1,Bulbasaur,Grass,Poison,Seed Pokémon,0.7,6.9,Overgrow,,Chlorophyll,45,49,49,65,65,45,318,Gen 1
+2,Ivysaur,Grass,Poison,Seed Pokémon,1.0,13.0,Overgrow,,Chlorophyll,60,62,63,80,80,60,405,Gen 1
+3,Venusaur,Grass,Poison,Seed Pokémon,2.0,100.0,Overgrow,,Chlorophyll,80,82,83,100,100,80,525,Gen 1
+4,Charmander,Fire,,Lizard Pokémon,0.6,8.5,Blaze,,Solar,39,52,43,60,50,65,309,Gen 1
+5,Charmeleon,Fire,,Flame Pokémon,1.1,19.0,Blaze,,Solar,58,64,58,80,65,80,405,Gen 1
+6,Charizard,Fire,Flying,Flame Pokémon,1.7,90.5,Blaze,,Solar,78,84,78,109,85,100,534,Gen 1
+7,Squirtle,Water,,Tiny Turtle Pokémon,0.5,9.0,Torrent,,Rain,44,48,65,50,64,43,314,Gen 1
+8,Wartortle,Water,,Turtle Pokémon,1.0,22.5,Torrent,,Rain,59,63,80,65,80,58,405,Gen 1
+9,Blastoise,Water,,Shellfish Pokémon,1.6,85.5,Torrent,,Rain,79,83,100,85,105,78,530,Gen 1
+10,Caterpie,Bug,,Worm Pokémon,0.3,2.9,Dust,,Run,45,30,35,20,20,45,195,Gen 1
+11,Metapod,Bug,,Cocoon Pokémon,0.7,9.9,Skin,,,50,20,55,25,25,30,205,Gen 1
+12,Butterfree,Bug,Flying,Butterfly Pokémon,1.1,32.0,Eyes,,Tinted,60,45,50,90,80,70,395,Gen 1
+13,Weedle,Bug,Poison,Hairy Bug Pokémon,0.3,3.2,Dust,,Run,40,35,30,20,20,50,195,Gen 1
+14,Kakuna,Bug,Poison,Cocoon Pokémon,0.6,10.0,Skin,,,45,25,50,25,25,35,205,Gen 1
+15,Beedrill,Bug,Poison,Poison Bee Pokémon,1.0,29.5,Swarm,,Sniper,65,90,40,45,80,75,395,Gen 1
+16,Pidgey,Normal,Flying,Tiny Bird Pokémon,0.3,1.8,Eye,Feet,Big,40,45,40,35,35,56,251,Gen 1
+17,Pidgeotto,Normal,Flying,Bird Pokémon,1.1,30.0,Eye,Feet,Big,63,60,55,50,50,71,349,Gen 1
+18,Pidgeot,Normal,Flying,Bird Pokémon,1.5,39.5,Eye,Feet,Big,83,80,75,70,70,101,479,Gen 1
+19,Rattata,Normal,,Mouse Pokémon,0.3,3.5,Away,Guts,Hustle,30,56,35,25,35,72,253,Gen 1
+20,Raticate,Normal,,Mouse Pokémon,0.7,18.5,Away,Guts,Hustle,55,81,60,50,70,97,413,Gen 1
+21,Spearow,Normal,Flying,Tiny Bird Pokémon,0.3,2.0,Eye,,Sniper,40,60,30,31,31,70,262,Gen 1
+22,Fearow,Normal,Flying,Beak Pokémon,1.2,38.0,Eye,,Sniper,65,90,65,61,61,100,442,Gen 1
+23,Ekans,Poison,,Snake Pokémon,2.0,6.9,Intimidate,Skin,Unnerve,35,60,44,40,54,55,288,Gen 1
+24,Arbok,Poison,,Cobra Pokémon,3.5,65.0,Intimidate,Skin,Unnerve,60,95,69,65,79,80,448,Gen 1
+25,Pikachu,Electric,,Mouse Pokémon,0.4,6.0,Static,,Lightning,35,55,40,50,50,90,320,Gen 1
+26,Raichu,Electric,,Mouse Pokémon,0.8,30.0,Static,,Lightning,60,90,55,90,80,110,485,Gen 1
+27,Sandshrew,Ground,,Mouse Pokémon,0.6,12.0,Veil,,Sand,50,75,85,20,30,40,300,Gen 1
+28,Sandslash,Ground,,Mouse Pokémon,1.0,29.5,Veil,,Sand,75,100,110,45,55,65,450,Gen 1
+29,Nidoran♀ (Female),Poison,,Poison Pin Pokémon,0.4,7.0,Point,Rivalry,Hustle,55,47,52,40,40,41,275,Gen 1
+30,Nidorina,Poison,,Poison Pin Pokémon,0.8,20.0,Point,Rivalry,Hustle,70,62,67,55,55,56,365,Gen 1
+31,Nidoqueen,Poison,Ground,Drill Pokémon,1.3,60.0,Point,Rivalry,Sheer,90,92,87,75,85,76,505,Gen 1
+32,Nidoran♂ (Male),Poison,,Poison Pin Pokémon,0.5,9.0,Point,Rivalry,Hustle,46,57,40,40,40,50,273,Gen 1
+33,Nidorino,Poison,,Poison Pin Pokémon,0.9,19.5,Point,Rivalry,Hustle,61,72,57,55,55,65,365,Gen 1
+34,Nidoking,Poison,Ground,Drill Pokémon,1.4,62.0,Point,Rivalry,Sheer,81,102,77,85,75,85,505,Gen 1
+35,Clefairy,Fairy,,Fairy Pokémon,0.6,7.5,Charm,Guard,Friend,70,45,48,60,65,35,323,Gen 1
+36,Clefable,Fairy,,Fairy Pokémon,1.3,40.0,Charm,Guard,Unaware,95,70,73,95,90,60,483,Gen 1
+37,Vulpix,Fire,,Fox Pokémon,0.6,9.9,Fire,,Drought,38,41,40,50,65,65,299,Gen 1
+38,Ninetales,Fire,,Fox Pokémon,1.1,19.9,Fire,,Drought,73,76,75,81,100,100,505,Gen 1
+39,Jigglypuff,Normal,Fairy,Balloon Pokémon,0.5,5.5,Charm,Competitive,Friend,115,45,20,45,25,20,270,Gen 1
+40,Wigglytuff,Normal,Fairy,Balloon Pokémon,1.0,12.0,Charm,Competitive,Frisk,140,70,45,85,50,45,435,Gen 1
+41,Zubat,Poison,Flying,Bat Pokémon,0.8,7.5,Focus,,Infiltrator,40,45,35,30,40,55,245,Gen 1
+42,Golbat,Poison,Flying,Bat Pokémon,1.6,55.0,Focus,,Infiltrator,75,80,70,65,75,90,455,Gen 1
+43,Oddish,Grass,Poison,Weed Pokémon,0.5,5.4,Chlorophyll,,Run,45,50,55,75,65,30,320,Gen 1
+44,Gloom,Grass,Poison,Weed Pokémon,0.8,8.6,Chlorophyll,,Stench,60,65,70,85,75,40,395,Gen 1
+45,Vileplume,Grass,Poison,Flower Pokémon,1.2,18.6,Chlorophyll,,Effect,75,80,85,110,90,50,490,Gen 1
+46,Paras,Bug,Grass,Mushroom Pokémon,0.3,5.4,Spore,Skin,Damp,35,70,55,45,55,25,285,Gen 1
+47,Parasect,Bug,Grass,Mushroom Pokémon,1.0,29.5,Spore,Skin,Damp,60,95,80,60,80,30,405,Gen 1
+48,Venonat,Bug,Poison,Insect Pokémon,1.0,30.0,Eyes,Lens,Run,60,55,50,40,55,45,305,Gen 1
+49,Venomoth,Bug,Poison,Poison Moth Pokémon,1.5,12.5,Dust,Lens,Wonder,70,65,60,90,75,90,450,Gen 1
+50,Diglett,Ground,,Mole Pokémon,0.2,0.8,Veil,Trap,Sand,10,55,25,35,45,95,265,Gen 1
+51,Dugtrio,Ground,,Mole Pokémon,0.7,33.3,Veil,Trap,Sand,35,100,50,50,70,120,425,Gen 1
+52,Meowth,Normal,,Scratch Cat Pokémon,0.4,4.2,Pickup,Technician,Unnerve,40,45,35,40,40,90,290,Gen 1
+53,Persian,Normal,,Classy Cat Pokémon,1.0,32.0,Limber,Technician,Unnerve,65,70,60,65,65,115,440,Gen 1
+54,Psyduck,Water,,Duck Pokémon,0.8,19.6,Damp,Nine,Swift,50,52,48,65,50,55,320,Gen 1
+55,Golduck,Water,,Duck Pokémon,1.7,76.6,Damp,Nine,Swift,80,82,78,95,80,85,500,Gen 1
+56,Mankey,Fighting,,Pig Monkey Pokémon,0.5,28.0,Spirit,Point,Defiant,40,80,35,35,45,70,305,Gen 1
+57,Primeape,Fighting,,Pig Monkey Pokémon,1.0,32.0,Spirit,Point,Defiant,65,105,60,60,70,95,455,Gen 1
+58,Growlithe,Fire,,Puppy Pokémon,0.7,19.0,Intimidate,Fire,Justified,55,70,45,70,50,60,350,Gen 1
+59,Arcanine,Fire,,Legendary Pokémon,1.9,155.0,Intimidate,Fire,Justified,90,110,80,100,80,95,555,Gen 1
+60,Poliwag,Water,,Tadpole Pokémon,0.6,12.4,Absorb,Damp,Swift,40,50,40,40,40,90,300,Gen 1
+61,Poliwhirl,Water,,Tadpole Pokémon,1.0,20.0,Absorb,Damp,Swift,65,65,65,50,50,90,385,Gen 1
+62,Poliwrath,Water,Fighting,Tadpole Pokémon,1.3,54.0,Absorb,Damp,Swift,90,95,95,70,90,70,510,Gen 1
+63,Abra,Psychic,,Psi Pokémon,0.9,19.5,Synchronize,Focus,Magic,25,20,15,105,55,90,310,Gen 1
+64,Kadabra,Psychic,,Psi Pokémon,1.3,56.5,Synchronize,Focus,Magic,40,35,30,120,70,105,400,Gen 1
+65,Alakazam,Psychic,,Psi Pokémon,1.5,48.0,Synchronize,Focus,Magic,55,50,45,135,95,120,500,Gen 1
+66,Machop,Fighting,,Superpower Pokémon,0.8,19.5,Guts,Guard,Steadfast,70,80,50,35,35,35,305,Gen 1
+67,Machoke,Fighting,,Superpower Pokémon,1.5,70.5,Guts,Guard,Steadfast,80,100,70,50,60,45,405,Gen 1
+68,Machamp,Fighting,,Superpower Pokémon,1.6,130.0,Guts,Guard,Steadfast,90,130,80,65,85,55,505,Gen 1
+69,Bellsprout,Grass,Poison,Flower Pokémon,0.7,4.0,Chlorophyll,,Gluttony,50,75,35,70,30,40,300,Gen 1
+70,Weepinbell,Grass,Poison,Flycatcher Pokémon,1.0,6.4,Chlorophyll,,Gluttony,65,90,50,85,45,55,390,Gen 1
+71,Victreebel,Grass,Poison,Flycatcher Pokémon,1.7,15.5,Chlorophyll,,Gluttony,80,105,65,100,70,70,490,Gen 1
+72,Tentacool,Water,Poison,Jellyfish Pokémon,0.9,45.5,Body,Ooze,Rain,40,40,35,50,100,70,335,Gen 1
+73,Tentacruel,Water,Poison,Jellyfish Pokémon,1.6,55.0,Body,Ooze,Rain,80,70,65,80,120,100,515,Gen 1
+74,Geodude,Rock,Ground,Rock Pokémon,0.4,20.0,Head,Sturdy,Sand,40,80,100,30,30,20,300,Gen 1
+75,Graveler,Rock,Ground,Rock Pokémon,1.0,105.0,Head,Sturdy,Sand,55,95,115,45,45,35,390,Gen 1
+76,Golem,Rock,Ground,Megaton Pokémon,1.4,300.0,Head,Sturdy,Sand,80,120,130,55,65,45,495,Gen 1
+77,Ponyta,Fire,,Fire Horse Pokémon,1.0,30.0,Away,Fire,Flame,50,85,55,65,65,90,410,Gen 1
+78,Rapidash,Fire,,Fire Horse Pokémon,1.7,95.0,Away,Fire,Flame,65,100,70,80,80,105,500,Gen 1
+79,Slowpoke,Water,Psychic,Dopey Pokémon,1.2,36.0,Oblivious,Tempo,Regenerator,90,65,65,40,40,15,315,Gen 1
+80,Slowbro,Water,Psychic,Hermit Crab Pokémon,1.6,78.5,Oblivious,Tempo,Regenerator,95,75,110,100,80,30,490,Gen 1
+81,Magnemite,Electric,Steel,Magnet Pokémon,0.3,6.0,Pull,Sturdy,Analytic,25,35,70,95,55,45,325,Gen 1
+82,Magneton,Electric,Steel,Magnet Pokémon,1.0,60.0,Pull,Sturdy,Analytic,50,60,95,120,70,70,465,Gen 1
+83,Farfetch'D,Normal,Flying,Wild Duck Pokémon,0.8,15.0,Eye,Focus,Defiant,52,90,55,58,62,60,377,Gen 1
+84,Doduo,Normal,Flying,Twin Bird Pokémon,1.4,39.2,Away,Bird,Tangled,35,85,45,35,35,75,310,Gen 1
+85,Dodrio,Normal,Flying,Triple Bird Pokémon,1.8,85.2,Away,Bird,Tangled,60,110,70,60,60,110,470,Gen 1
+86,Seel,Water,,Sea Lion Pokémon,1.1,90.0,Fat,Hydration,Ice,65,45,55,45,70,45,325,Gen 1
+87,Dewgong,Water,Ice,Sea Lion Pokémon,1.7,120.0,Fat,Hydration,Ice,90,70,80,70,95,70,475,Gen 1
+88,Grimer,Poison,,Sludge Pokémon,0.9,30.0,Stench,Hold,Poison,80,80,50,40,50,25,325,Gen 1
+89,Muk,Poison,,Sludge Pokémon,1.2,30.0,Stench,Hold,Poison,105,105,75,65,100,50,500,Gen 1
+90,Shellder,Water,,Bivalve Pokémon,0.3,4.0,Armor,Link,Overcoat,30,65,100,45,25,40,305,Gen 1
+91,Cloyster,Water,Ice,Bivalve Pokémon,1.5,132.5,Armor,Link,Overcoat,50,95,180,85,45,70,525,Gen 1
+92,Gastly,Ghost,Poison,Gas Pokémon,1.3,0.1,Levitate,,,30,35,30,100,35,80,310,Gen 1
+93,Haunter,Ghost,Poison,Gas Pokémon,1.6,0.1,Levitate,,,45,50,45,115,55,95,405,Gen 1
+94,Gengar,Ghost,Poison,Shadow Pokémon,1.5,40.5,Body,,,60,65,60,130,75,110,500,Gen 1
+95,Onix,Rock,Ground,Rock Snake Pokémon,8.8,210.0,Head,Sturdy,Weak,35,45,160,30,45,70,385,Gen 1
+96,Drowzee,Psychic,,Hypnosis Pokémon,1.0,32.4,Insomnia,Forewarn,Inner,60,48,45,43,90,42,328,Gen 1
+97,Hypno,Psychic,,Hypnosis Pokémon,1.6,75.6,Insomnia,Forewarn,Inner,85,73,70,73,115,67,483,Gen 1
+98,Krabby,Water,,River Crab Pokémon,0.4,6.5,Cutter,Armor,Sheer,30,105,90,25,25,50,325,Gen 1
+99,Kingler,Water,,Pincer Pokémon,1.3,60.0,Cutter,Armor,Sheer,55,130,115,50,50,75,475,Gen 1
+100,Voltorb,Electric,,Ball Pokémon,0.5,10.4,Soundproof,Static,Aftermath,40,30,50,55,55,100,330,Gen 1
+101,Electrode,Electric,,Ball Pokémon,1.2,66.6,Soundproof,Static,Aftermath,60,50,70,80,80,150,490,Gen 1
+102,Exeggcute,Grass,Psychic,Egg Pokémon,0.4,2.5,Chlorophyll,,Harvest,60,40,80,60,45,40,325,Gen 1
+103,Exeggutor,Grass,Psychic,Coconut Pokémon,2.0,120.0,Chlorophyll,,Harvest,95,95,85,125,75,55,530,Gen 1
+104,Cubone,Ground,,Lonely Pokémon,0.4,6.5,Head,Rod,Battle,50,50,95,40,50,35,320,Gen 1
+105,Marowak,Ground,,Bone Keeper Pokémon,1.0,45.0,Head,Rod,Battle,60,80,110,50,80,45,425,Gen 1
+106,Hitmonlee,Fighting,,Kicking Pokémon,1.5,49.8,Limber,Reckless,Unburden,50,120,53,35,110,87,455,Gen 1
+107,Hitmonchan,Fighting,,Punching Pokémon,1.4,50.2,Eye,Fist,Inner,50,105,79,35,110,76,455,Gen 1
+108,Lickitung,Normal,,Licking Pokémon,1.2,65.5,Tempo,Oblivious,Cloud,90,55,75,60,75,30,385,Gen 1
+109,Koffing,Poison,,Poison Gas Pokémon,0.6,1.0,Levitate,Gas,Stench,40,65,95,60,45,35,340,Gen 1
+110,Weezing,Poison,,Poison Gas Pokémon,1.2,9.5,Levitate,Gas,Stench,65,90,120,85,70,60,490,Gen 1
+111,Rhyhorn,Ground,Rock,Spikes Pokémon,1.0,115.0,Rod,Head,Reckless,80,85,95,30,30,25,345,Gen 1
+112,Rhydon,Ground,Rock,Drill Pokémon,1.9,120.0,Rod,Head,Reckless,105,130,120,45,45,40,485,Gen 1
+113,Chansey,Normal,,Egg Pokémon,1.1,34.6,Cure,Grace,Healer,250,5,5,35,105,50,450,Gen 1
+114,Tangela,Grass,,Vine Pokémon,1.0,35.0,Chlorophyll,Guard,Regenerator,65,55,115,100,40,60,435,Gen 1
+115,Kangaskhan,Normal,,Parent Pokémon,2.2,80.0,Bird,Scrappy,Inner,105,95,80,40,80,90,490,Gen 1
+116,Horsea,Water,,Dragon Pokémon,0.4,8.0,Swim,Sniper,Damp,30,40,70,70,25,60,295,Gen 1
+117,Seadra,Water,,Dragon Pokémon,1.2,25.0,Point,Sniper,Damp,55,65,95,95,45,85,440,Gen 1
+118,Goldeen,Water,,Goldfish Pokémon,0.6,15.0,Swim,Veil,Lightning,45,67,60,35,50,63,320,Gen 1
+119,Seaking,Water,,Goldfish Pokémon,1.3,39.0,Swim,Veil,Lightning,80,92,65,65,80,68,450,Gen 1
+120,Staryu,Water,,Star Shape Pokémon,0.8,34.5,Illuminate,Cure,Analytic,30,45,55,70,55,85,340,Gen 1
+121,Starmie,Water,Psychic,Mysterious Pokémon,1.1,80.0,Illuminate,Cure,Analytic,60,75,85,100,85,115,520,Gen 1
+122,Mr. Mime,Psychic,Fairy,Barrier Pokémon,1.3,54.5,Soundproof,Filter,Technician,40,45,65,100,120,90,460,Gen 1
+123,Scyther,Bug,Flying,Mantis Pokémon,1.5,56.0,Swarm,Technician,Steadfast,70,110,80,55,80,105,500,Gen 1
+124,Jynx,Ice,Psychic,Human Shape Pokémon,1.4,40.6,Oblivious,Forewarn,Dry,65,50,35,115,95,95,455,Gen 1
+125,Electabuzz,Electric,,Electric Pokémon,1.1,30.0,Static,,Vital,65,83,57,95,85,105,490,Gen 1
+126,Magmar,Fire,,Spitfire Pokémon,1.3,44.5,Body,,Vital,65,95,57,100,85,93,495,Gen 1
+127,Pinsir,Bug,,Stag Beetle Pokémon,1.5,55.0,Cutter,Breaker,Moxie,65,125,100,55,70,85,500,Gen 1
+128,Tauros,Normal,,Wild Bull Pokémon,1.4,88.4,Intimidate,Point,Sheer,75,100,95,40,70,110,490,Gen 1
+129,Magikarp,Water,,Fish Pokémon,0.9,10.0,Swim,,Rattled,20,10,55,15,20,80,200,Gen 1
+130,Gyarados,Water,Flying,Atrocious Pokémon,6.5,235.0,Intimidate,,Moxie,95,125,79,60,100,81,540,Gen 1
+131,Lapras,Water,Ice,Transport Pokémon,2.5,220.0,Absorb,Armor,Hydration,130,85,80,85,95,60,535,Gen 1
+132,Ditto,Normal,,Transform Pokémon,0.3,4.0,Limber,,Imposter,48,48,48,48,48,48,288,Gen 1
+133,Eevee,Normal,,Evolution Pokémon,0.3,6.5,Away,Adaptability,Anticipation,55,55,50,45,65,55,325,Gen 1
+134,Vaporeon,Water,,Bubble Jet Pokémon,1.0,29.0,Absorb,,Hydration,130,65,60,110,95,65,525,Gen 1
+135,Jolteon,Electric,,Lightning Pokémon,0.8,24.5,Absorb,,Quick,65,65,60,110,95,130,525,Gen 1
+136,Flareon,Fire,,Flame Pokémon,0.9,25.0,Fire,,Guts,65,130,60,95,110,65,525,Gen 1
+137,Porygon,Normal,,Virtual Pokémon,0.8,36.5,Trace,Download,Analytic,65,60,70,85,75,40,395,Gen 1
+138,Omanyte,Rock,Water,Spiral Pokémon,0.4,7.5,Swim,Armor,Weak,35,40,100,90,55,35,355,Gen 1
+139,Omastar,Rock,Water,Spiral Pokémon,1.0,35.0,Swim,Armor,Weak,70,60,125,115,70,55,495,Gen 1
+140,Kabuto,Rock,Water,Shellfish Pokémon,0.5,11.5,Swim,Armor,Weak,30,80,90,55,45,55,355,Gen 1
+141,Kabutops,Rock,Water,Shellfish Pokémon,1.3,40.5,Swim,Armor,Weak,60,115,105,65,70,80,495,Gen 1
+142,Aerodactyl,Rock,Flying,Fossil Pokémon,1.8,59.0,Head,Pressure,Unnerve,80,105,65,60,75,130,515,Gen 1
+143,Snorlax,Normal,,Sleeping Pokémon,2.1,460.0,Immunity,Fat,Gluttony,160,110,65,65,110,30,540,Gen 1
+144,Articuno,Ice,Flying,Freeze Pokémon,1.7,55.4,Pressure,,Snow,90,85,100,95,125,85,580,Gen 1
+145,Zapdos,Electric,Flying,Electric Pokémon,1.6,52.6,Pressure,,Static,90,90,85,125,90,100,580,Gen 1
+146,Moltres,Fire,Flying,Flame Pokémon,2.0,60.0,Pressure,,Flame,90,100,90,125,85,90,580,Gen 1
+147,Dratini,Dragon,,Dragon Pokémon,1.8,3.3,Skin,,Marvel,41,64,45,50,50,50,300,Gen 1
+148,Dragonair,Dragon,,Dragon Pokémon,4.0,16.5,Skin,,Marvel,61,84,65,70,70,70,420,Gen 1
+149,Dragonite,Dragon,Flying,Dragon Pokémon,2.2,210.0,Focus,,Multiscale,91,134,95,100,100,80,600,Gen 1
+150,Mewtwo,Psychic,,Genetic Pokémon,2.0,122.0,Pressure,,Unnerve,106,110,90,154,90,130,680,Gen 1
+151,Mew,Psychic,,New Species Pokémon,0.4,4.0,Synchronize,,,100,100,100,100,100,100,600,Gen 1
+152,Chikorita,Grass,,Leaf Pokémon,0.9,6.4,Overgrow,,Leaf,45,49,65,49,65,45,318,Gen 2
+153,Bayleef,Grass,,Leaf Pokémon,1.2,15.8,Overgrow,,Leaf,60,62,80,63,80,60,405,Gen 2
+154,Meganium,Grass,,Herb Pokémon,1.8,100.5,Overgrow,,Leaf,80,82,100,83,100,80,525,Gen 2
+155,Cyndaquil,Fire,,Fire Mouse Pokémon,0.5,7.9,Blaze,,Flash,39,52,43,60,50,65,309,Gen 2
+156,Quilava,Fire,,Volcano Pokémon,0.9,19.0,Blaze,,Flash,58,64,58,80,65,80,405,Gen 2
+157,Typhlosion,Fire,,Volcano Pokémon,1.7,79.5,Blaze,,Flash,78,84,78,109,85,100,534,Gen 2
+158,Totodile,Water,,Big Jaw Pokémon,0.6,9.5,Torrent,,Sheer,50,65,64,44,48,43,314,Gen 2
+159,Croconaw,Water,,Big Jaw Pokémon,1.1,25.0,Torrent,,Sheer,65,80,80,59,63,58,405,Gen 2
+160,Feraligatr,Water,,Big Jaw Pokémon,2.3,88.8,Torrent,,Sheer,85,105,100,79,83,78,530,Gen 2
+161,Sentret,Normal,,Scout Pokémon,0.8,6.0,Away,Eye,Frisk,35,46,34,35,45,20,215,Gen 2
+162,Furret,Normal,,Long Body Pokémon,1.8,32.5,Away,Eye,Frisk,85,76,64,45,55,90,415,Gen 2
+163,Hoothoot,Normal,Flying,Owl Pokémon,0.7,21.2,Insomnia,Eye,Tinted,60,30,30,36,56,50,262,Gen 2
+164,Noctowl,Normal,Flying,Owl Pokémon,1.6,40.8,Insomnia,Eye,Tinted,100,50,50,86,96,70,452,Gen 2
+165,Ledyba,Bug,Flying,Five Star Pokémon,1.0,10.8,Swarm,Bird,Rattled,40,20,30,40,80,55,265,Gen 2
+166,Ledian,Bug,Flying,Five Star Pokémon,1.4,35.6,Swarm,Bird,Iron,55,35,50,55,110,85,390,Gen 2
+167,Spinarak,Bug,Poison,String Spit Pokémon,0.5,8.5,Swarm,Insomnia,Sniper,40,60,40,40,40,30,250,Gen 2
+168,Ariados,Bug,Poison,Long Leg Pokémon,1.1,33.5,Swarm,Insomnia,Sniper,70,90,70,60,70,40,400,Gen 2
+169,Crobat,Poison,Flying,Bat Pokémon,1.8,75.0,Focus,,Infiltrator,85,90,80,70,80,130,535,Gen 2
+170,Chinchou,Water,Electric,Angler Pokémon,0.5,12.0,Absorb,Illuminate,Water,75,38,38,56,56,67,330,Gen 2
+171,Lanturn,Water,Electric,Light Pokémon,1.2,22.5,Absorb,Illuminate,Water,125,58,58,76,76,67,460,Gen 2
+172,Pichu,Electric,,Tiny Mouse Pokémon,0.3,2.0,Static,,Lightning,20,40,15,35,35,60,205,Gen 2
+173,Cleffa,Fairy,,Star Shape Pokémon,0.3,3.0,Charm,Guard,Friend,50,25,28,45,55,15,218,Gen 2
+174,Igglybuff,Normal,Fairy,Balloon Pokémon,0.3,1.0,Charm,Competitive,Friend,90,30,15,40,20,15,210,Gen 2
+175,Togepi,Fairy,,Spike Ball Pokémon,0.3,1.5,Hustle,Grace,Super,35,20,65,40,65,20,245,Gen 2
+176,Togetic,Fairy,Flying,Happiness Pokémon,0.6,3.2,Hustle,Grace,Super,55,40,85,80,105,40,405,Gen 2
+177,Natu,Psychic,Flying,Tiny Bird Pokémon,0.2,2.0,Synchronize,Bird,Magic,40,50,45,70,45,70,320,Gen 2
+178,Xatu,Psychic,Flying,Mystic Pokémon,1.5,15.0,Synchronize,Bird,Magic,65,75,70,95,70,95,470,Gen 2
+179,Mareep,Electric,,Wool Pokémon,0.6,7.8,Static,,Plus,55,40,40,65,45,35,280,Gen 2
+180,Flaaffy,Electric,,Wool Pokémon,0.8,13.3,Static,,Plus,70,55,55,80,60,45,365,Gen 2
+181,Ampharos,Electric,,Light Pokémon,1.4,61.5,Static,,Plus,90,75,85,115,90,55,510,Gen 2
+182,Bellossom,Grass,,Flower Pokémon,0.4,5.8,Chlorophyll,,Healer,75,80,95,90,100,50,490,Gen 2
+183,Marill,Water,Fairy,Aqua Mouse Pokémon,0.4,8.5,Fat,Power,Sap,70,20,50,20,50,40,250,Gen 2
+184,Azumarill,Water,Fairy,Aqua Rabbit Pokémon,0.8,28.5,Fat,Power,Sap,100,50,80,60,80,50,420,Gen 2
+185,Sudowoodo,Rock,,Imitation Pokémon,1.2,38.0,Sturdy,Head,Rattled,70,100,115,30,65,30,410,Gen 2
+186,Politoed,Water,,Frog Pokémon,1.1,33.9,Absorb,Damp,Drizzle,90,75,75,90,100,70,500,Gen 2
+187,Hoppip,Grass,Flying,Cottonweed Pokémon,0.4,0.5,Chlorophyll,Guard,Infiltrator,35,35,40,35,55,50,250,Gen 2
+188,Skiploom,Grass,Flying,Cottonweed Pokémon,0.6,1.0,Chlorophyll,Guard,Infiltrator,55,45,50,45,65,80,340,Gen 2
+189,Jumpluff,Grass,Flying,Cottonweed Pokémon,0.8,3.0,Chlorophyll,Guard,Infiltrator,75,55,70,55,95,110,460,Gen 2
+190,Aipom,Normal,,Long Tail Pokémon,0.8,11.5,Away,Pickup,Skill,55,70,55,40,55,85,360,Gen 2
+191,Sunkern,Grass,,Seed Pokémon,0.3,1.8,Chlorophyll,Power,Early,30,30,30,30,30,30,180,Gen 2
+192,Sunflora,Grass,,Sun Pokémon,0.8,8.5,Chlorophyll,Power,Early,75,75,55,105,85,30,425,Gen 2
+193,Yanma,Bug,Flying,Clear Wing Pokémon,1.2,38.0,Boost,Eyes,Frisk,65,65,45,75,45,95,390,Gen 2
+194,Wooper,Water,Ground,Water Fish Pokémon,0.4,8.5,Damp,Absorb,Unaware,55,45,45,25,25,15,210,Gen 2
+195,Quagsire,Water,Ground,Water Fish Pokémon,1.4,75.0,Damp,Absorb,Unaware,95,85,85,65,65,35,430,Gen 2
+196,Espeon,Psychic,,Sun Pokémon,0.9,26.5,Synchronize,,Magic,65,65,60,130,95,110,525,Gen 2
+197,Umbreon,Dark,,Moonlight Pokémon,1.0,27.0,Synchronize,,Inner,95,65,110,60,130,65,525,Gen 2
+198,Murkrow,Dark,Flying,Darkness Pokémon,0.5,2.1,Insomnia,Luck,Prankster,60,85,42,85,42,91,405,Gen 2
+199,Slowking,Water,Psychic,Royal Pokémon,2.0,79.5,Oblivious,Tempo,Regenerator,95,75,80,100,110,30,490,Gen 2
+200,Misdreavus,Ghost,,Screech Pokémon,0.7,1.0,Levitate,,,60,60,60,85,85,85,435,Gen 2
+201,Unown,Psychic,,Symbol Pokémon,0.5,5.0,Levitate,,,48,72,48,72,48,48,336,Gen 2
+202,Wobbuffet,Psychic,,Patient Pokémon,1.3,28.5,Tag,,Telepathy,190,33,58,33,58,33,405,Gen 2
+203,Girafarig,Normal,Psychic,Long Neck Pokémon,1.5,41.5,Focus,Bird,Sap,70,80,65,90,65,85,455,Gen 2
+204,Pineco,Bug,,Bagworm Pokémon,0.6,7.2,Sturdy,,Overcoat,50,65,90,35,35,15,290,Gen 2
+205,Forretress,Bug,Steel,Bagworm Pokémon,1.2,125.8,Sturdy,,Overcoat,75,90,140,60,60,40,465,Gen 2
+206,Dunsparce,Normal,,Land Snake Pokémon,1.5,14.0,Grace,Away,Rattled,100,70,70,65,65,45,415,Gen 2
+207,Gligar,Ground,Flying,Flyscorpion Pokémon,1.1,64.8,Cutter,Veil,Immunity,65,75,105,35,65,85,430,Gen 2
+208,Steelix,Steel,Ground,Iron Snake Pokémon,9.2,400.0,Head,Sturdy,Sheer,75,85,200,55,65,30,510,Gen 2
+209,Snubbull,Fairy,,Fairy Pokémon,0.6,7.8,Intimidate,Away,Rattled,60,80,50,40,40,30,300,Gen 2
+210,Granbull,Fairy,,Fairy Pokémon,1.4,48.7,Intimidate,Feet,Rattled,90,120,75,60,60,45,450,Gen 2
+211,Qwilfish,Water,Poison,Balloon Pokémon,0.5,3.9,Point,Swim,Intimidate,65,95,85,55,55,85,440,Gen 2
+212,Scizor,Bug,Steel,Pincer Pokémon,1.8,118.0,Swarm,Technician,Light,70,130,100,55,80,65,500,Gen 2
+213,Shuckle,Bug,Rock,Mold Pokémon,0.6,20.5,Sturdy,Gluttony,Contrary,20,10,230,10,230,5,505,Gen 2
+214,Heracross,Bug,Fighting,Single Horn Pokémon,1.5,54.0,Swarm,Guts,Moxie,80,125,75,40,95,85,500,Gen 2
+215,Sneasel,Dark,Ice,Sharp Claw Pokémon,0.9,28.0,Focus,Eye,Pickpocket,55,95,55,35,75,115,430,Gen 2
+216,Teddiursa,Normal,,Little Bear Pokémon,0.6,8.8,Pickup,Feet,Honey,60,80,50,50,50,40,330,Gen 2
+217,Ursaring,Normal,,Hibernator Pokémon,1.8,125.8,Guts,Feet,Unnerve,90,130,75,75,75,55,500,Gen 2
+218,Slugma,Fire,,Lava Pokémon,0.7,35.0,Armor,Body,Weak,40,40,40,70,40,20,250,Gen 2
+219,Magcargo,Fire,Rock,Lava Pokémon,0.8,55.0,Armor,Body,Weak,60,50,120,90,80,30,430,Gen 2
+220,Swinub,Ice,Ground,Pig Pokémon,0.4,6.5,Oblivious,Cloak,Thick,50,50,40,30,30,50,250,Gen 2
+221,Piloswine,Ice,Ground,Swine Pokémon,1.1,55.8,Oblivious,Cloak,Thick,100,100,80,60,60,50,450,Gen 2
+222,Corsola,Water,Rock,Coral Pokémon,0.6,5.0,Hustle,Cure,Regenerator,65,55,95,65,95,35,410,Gen 2
+223,Remoraid,Water,,Jet Pokémon,0.6,12.0,Hustle,Sniper,Moody,35,65,35,65,35,65,300,Gen 2
+224,Octillery,Water,,Jet Pokémon,0.9,28.5,Cups,Sniper,Moody,75,105,75,105,75,45,480,Gen 2
+225,Delibird,Ice,Flying,Delivery Pokémon,0.9,16.0,Spirit,Hustle,Insomnia,45,55,45,65,45,75,330,Gen 2
+226,Mantine,Water,Flying,Kite Pokémon,2.1,220.0,Swim,Absorb,Water,85,40,70,80,140,70,485,Gen 2
+227,Skarmory,Steel,Flying,Armor Bird Pokémon,1.7,50.5,Eye,Sturdy,Weak,65,80,140,40,70,70,465,Gen 2
+228,Houndour,Dark,Fire,Dark Pokémon,0.6,10.8,Bird,Fire,Unnerve,45,60,30,80,50,65,330,Gen 2
+229,Houndoom,Dark,Fire,Dark Pokémon,1.4,35.0,Bird,Fire,Unnerve,75,90,50,110,80,95,500,Gen 2
+230,Kingdra,Water,Dragon,Dragon Pokémon,1.8,152.0,Swim,Sniper,Damp,75,95,95,95,95,85,540,Gen 2
+231,Phanpy,Ground,,Long Nose Pokémon,0.5,33.5,Pickup,,Sand,90,60,60,40,40,40,330,Gen 2
+232,Donphan,Ground,,Armor Pokémon,1.1,120.0,Sturdy,,Sand,90,120,120,60,60,50,500,Gen 2
+233,Porygon2,Normal,,Virtual Pokémon,0.6,32.5,Trace,Download,Analytic,85,80,90,105,95,60,515,Gen 2
+234,Stantler,Normal,,Big Horn Pokémon,1.4,71.2,Intimidate,Frisk,Sap,73,95,62,85,65,85,465,Gen 2
+235,Smeargle,Normal,,Painter Pokémon,1.2,58.0,Tempo,Technician,Moody,55,20,35,20,45,75,250,Gen 2
+236,Tyrogue,Fighting,,Scuffle Pokémon,0.7,21.0,Guts,Steadfast,Vital,35,35,35,35,35,35,210,Gen 2
+237,Hitmontop,Fighting,,Handstand Pokémon,1.4,48.0,Intimidate,Technician,Steadfast,50,95,95,35,110,70,455,Gen 2
+238,Smoochum,Ice,Psychic,Kiss Pokémon,0.4,6.0,Oblivious,Forewarn,Hydration,45,30,15,85,65,65,305,Gen 2
+239,Elekid,Electric,,Electric Pokémon,0.6,23.5,Static,,Vital,45,63,37,65,55,95,360,Gen 2
+240,Magby,Fire,,Live Coal Pokémon,0.7,21.4,Body,,Vital,45,75,37,70,55,83,365,Gen 2
+241,Miltank,Normal,,Milk Cow Pokémon,1.2,75.5,Fat,Scrappy,Sap,95,80,105,40,70,100,490,Gen 2
+242,Blissey,Normal,,Happiness Pokémon,1.5,46.8,Cure,Grace,Healer,255,10,10,75,135,55,540,Gen 2
+243,Raikou,Electric,,Thunder Pokémon,1.9,178.0,Pressure,,Inner,90,85,75,115,100,115,580,Gen 2
+244,Entei,Fire,,Volcano Pokémon,2.1,198.0,Pressure,,Inner,115,115,85,90,75,100,580,Gen 2
+245,Suicune,Water,,Aurora Pokémon,2.0,187.0,Pressure,,Inner,100,75,115,90,115,85,580,Gen 2
+246,Larvitar,Rock,Ground,Rock Skin Pokémon,0.6,72.0,Guts,,Sand,50,64,50,45,50,41,300,Gen 2
+247,Pupitar,Rock,Ground,Hard Shell Pokémon,1.2,152.0,Skin,,,70,84,70,65,70,51,410,Gen 2
+248,Tyranitar,Rock,Dark,Armor Pokémon,2.0,202.0,Stream,,Unnerve,100,134,110,95,100,61,600,Gen 2
+249,Lugia,Psychic,Flying,Diving Pokémon,5.2,216.0,Pressure,,Multiscale,106,90,130,90,154,110,680,Gen 2
+250,Ho-Oh,Fire,Flying,Rainbow Pokémon,3.8,199.0,Pressure,,Regenerator,106,130,90,110,154,90,680,Gen 2
+251,Celebi,Psychic,Grass,Time Travel Pokémon,0.6,5.0,Cure,,,100,100,100,100,100,100,600,Gen 2
+252,Treecko,Grass,,Wood Gecko Pokémon,0.5,5.0,Overgrow,,Unburden,40,45,35,65,55,70,310,Gen 3
+253,Grovyle,Grass,,Wood Gecko Pokémon,0.9,21.6,Overgrow,,Unburden,50,65,45,85,65,95,405,Gen 3
+254,Sceptile,Grass,,Forest Pokémon,1.7,52.2,Overgrow,,Unburden,70,85,65,105,85,120,530,Gen 3
+255,Torchic,Fire,,Chick Pokémon,0.4,2.5,Blaze,,Speed,45,60,40,70,50,45,310,Gen 3
+256,Combusken,Fire,Fighting,Young Fowl Pokémon,0.9,19.5,Blaze,,Speed,60,85,60,85,60,55,405,Gen 3
+257,Blaziken,Fire,Fighting,Blaze Pokémon,1.9,52.0,Blaze,,Speed,80,120,70,110,70,80,530,Gen 3
+258,Mudkip,Water,,Mud Fish Pokémon,0.4,7.6,Torrent,,Damp,50,70,50,50,50,40,310,Gen 3
+259,Marshtomp,Water,Ground,Mud Fish Pokémon,0.7,28.0,Torrent,,Damp,70,85,70,60,70,50,405,Gen 3
+260,Swampert,Water,Ground,Mud Fish Pokémon,1.5,81.9,Torrent,,Damp,100,110,90,85,90,60,535,Gen 3
+261,Poochyena,Dark,,Bite Pokémon,0.5,13.6,Away,Feet,Rattled,35,55,35,30,30,35,220,Gen 3
+262,Mightyena,Dark,,Bite Pokémon,1.0,37.0,Intimidate,Feet,Moxie,70,90,70,60,60,70,420,Gen 3
+263,Zigzagoon,Normal,,Tinyraccoon Pokémon,0.4,17.5,Pickup,Gluttony,Quick,38,30,41,30,41,60,240,Gen 3
+264,Linoone,Normal,,Rushing Pokémon,0.5,32.5,Pickup,Gluttony,Quick,78,70,61,50,61,100,420,Gen 3
+265,Wurmple,Bug,,Worm Pokémon,0.3,3.6,Dust,,Run,45,45,35,20,30,20,195,Gen 3
+266,Silcoon,Bug,,Cocoon Pokémon,0.6,10.0,Skin,,,50,35,55,25,25,15,205,Gen 3
+267,Beautifly,Bug,Flying,Butterfly Pokémon,1.0,28.4,Swarm,,Rivalry,60,70,50,100,50,65,395,Gen 3
+268,Cascoon,Bug,,Cocoon Pokémon,0.7,11.5,Skin,,,50,35,55,25,25,15,205,Gen 3
+269,Dustox,Bug,Poison,Poison Moth Pokémon,1.2,31.6,Dust,,Compound,60,50,70,50,90,65,385,Gen 3
+270,Lotad,Water,Grass,Water Weed Pokémon,0.5,2.6,Swim,Dish,Own,40,30,30,40,50,30,220,Gen 3
+271,Lombre,Water,Grass,Jolly Pokémon,1.2,32.5,Swim,Dish,Own,60,50,50,60,70,50,340,Gen 3
+272,Ludicolo,Water,Grass,Carefree Pokémon,1.5,55.0,Swim,Dish,Own,80,70,70,90,100,70,480,Gen 3
+273,Seedot,Grass,,Acorn Pokémon,0.5,4.0,Chlorophyll,Bird,Pickpocket,40,40,50,30,30,30,220,Gen 3
+274,Nuzleaf,Grass,Dark,Wily Pokémon,1.0,28.0,Chlorophyll,Bird,Pickpocket,70,70,40,60,40,60,340,Gen 3
+275,Shiftry,Grass,Dark,Wicked Pokémon,1.3,59.6,Chlorophyll,Bird,Pickpocket,90,100,60,90,60,80,480,Gen 3
+276,Taillow,Normal,Flying,Tinyswallow Pokémon,0.3,2.3,Guts,,Scrappy,40,55,30,30,30,85,270,Gen 3
+277,Swellow,Normal,Flying,Swallow Pokémon,0.7,19.8,Guts,,Scrappy,60,85,60,75,50,125,455,Gen 3
+278,Wingull,Water,Flying,Seagull Pokémon,0.6,9.5,Eye,Hydration,Rain,40,30,30,55,30,85,270,Gen 3
+279,Pelipper,Water,Flying,Water Bird Pokémon,1.2,28.0,Eye,Drizzle,Rain,60,50,100,95,70,65,440,Gen 3
+280,Ralts,Psychic,Fairy,Feeling Pokémon,0.4,6.6,Synchronize,Trace,Telepathy,28,25,25,45,35,40,198,Gen 3
+281,Kirlia,Psychic,Fairy,Emotion Pokémon,0.8,20.2,Synchronize,Trace,Telepathy,38,35,35,65,55,50,278,Gen 3
+282,Gardevoir,Psychic,Fairy,Embrace Pokémon,1.6,48.4,Synchronize,Trace,Telepathy,68,65,65,125,115,80,518,Gen 3
+283,Surskit,Bug,Water,Pond Skater Pokémon,0.5,1.7,Swim,,Rain,40,30,32,50,52,65,269,Gen 3
+284,Masquerain,Bug,Flying,Eyeball Pokémon,0.8,3.6,Intimidate,,Unnerve,70,60,62,100,82,80,454,Gen 3
+285,Shroomish,Grass,,Mushroom Pokémon,0.4,4.5,Spore,Heal,Quick,60,40,60,40,60,35,295,Gen 3
+286,Breloom,Grass,Fighting,Mushroom Pokémon,1.2,39.2,Spore,Heal,Technician,60,130,80,60,60,70,460,Gen 3
+287,Slakoth,Normal,,Slacker Pokémon,0.8,24.0,Truant,,,60,60,60,35,35,30,280,Gen 3
+288,Vigoroth,Normal,,Wild Monkey Pokémon,1.4,46.5,Spirit,,,80,80,80,55,55,90,440,Gen 3
+289,Slaking,Normal,,Lazy Pokémon,2.0,130.5,Truant,,,150,160,100,95,65,100,670,Gen 3
+290,Nincada,Bug,Ground,Trainee Pokémon,0.5,5.5,Eyes,,Run,31,45,90,30,30,40,266,Gen 3
+291,Ninjask,Bug,Flying,Ninja Pokémon,0.8,12.0,Boost,,Infiltrator,61,90,45,50,50,160,456,Gen 3
+292,Shedinja,Bug,Ghost,Shed Pokémon,0.8,1.2,Guard,,,1,90,45,30,30,40,236,Gen 3
+293,Whismur,Normal,,Whisper Pokémon,0.6,16.3,Soundproof,,Rattled,64,51,23,51,23,28,240,Gen 3
+294,Loudred,Normal,,Big Voice Pokémon,1.0,40.5,Soundproof,,Scrappy,84,71,43,71,43,48,360,Gen 3
+295,Exploud,Normal,,Loud Noise Pokémon,1.5,84.0,Soundproof,,Scrappy,104,91,63,91,73,68,490,Gen 3
+296,Makuhita,Fighting,,Guts Pokémon,1.0,86.4,Fat,Guts,Sheer,72,60,30,20,30,25,237,Gen 3
+297,Hariyama,Fighting,,Arm Thrust Pokémon,2.3,253.8,Fat,Guts,Sheer,144,120,60,40,60,50,474,Gen 3
+298,Azurill,Normal,Fairy,Polka Dot Pokémon,0.2,2.0,Fat,Power,Sap,50,20,40,20,40,20,190,Gen 3
+299,Nosepass,Rock,,Compass Pokémon,1.0,97.0,Sturdy,Pull,Sand,30,45,135,45,90,30,375,Gen 3
+300,Skitty,Normal,,Kitten Pokémon,0.6,11.0,Charm,Normalize,Wonder,50,45,45,35,35,50,260,Gen 3
+301,Delcatty,Normal,,Prim Pokémon,1.1,32.6,Charm,Normalize,Wonder,70,65,65,55,55,90,400,Gen 3
+302,Sableye,Dark,Ghost,Darkness Pokémon,0.5,11.0,Eye,Stall,Prankster,50,75,75,65,65,50,380,Gen 3
+303,Mawile,Steel,Fairy,Deceiver Pokémon,0.6,11.5,Cutter,Intimidate,Sheer,50,85,85,55,55,50,380,Gen 3
+304,Aron,Steel,Rock,Iron Armor Pokémon,0.4,60.0,Sturdy,Head,Heavy,50,70,100,40,40,30,330,Gen 3
+305,Lairon,Steel,Rock,Iron Armor Pokémon,0.9,120.0,Sturdy,Head,Heavy,60,90,140,50,50,40,430,Gen 3
+306,Aggron,Steel,Rock,Iron Armor Pokémon,2.1,360.0,Sturdy,Head,Heavy,70,110,180,60,60,50,530,Gen 3
+307,Meditite,Fighting,Psychic,Meditate Pokémon,0.6,11.2,Power,,Telepathy,30,40,55,40,55,60,280,Gen 3
+308,Medicham,Fighting,Psychic,Meditate Pokémon,1.3,31.5,Power,,Telepathy,60,60,75,60,75,80,410,Gen 3
+309,Electrike,Electric,,Lightning Pokémon,0.6,15.2,Static,Rod,Minus,40,45,40,65,40,65,295,Gen 3
+310,Manectric,Electric,,Discharge Pokémon,1.5,40.2,Static,Rod,Minus,70,75,60,105,60,105,475,Gen 3
+311,Plusle,Electric,,Cheering Pokémon,0.4,4.2,Plus,,Lightning,60,50,40,85,75,95,405,Gen 3
+312,Minun,Electric,,Cheering Pokémon,0.4,4.2,Minus,,Volt,60,40,50,75,85,95,405,Gen 3
+313,Volbeat,Bug,,Firefly Pokémon,0.7,17.7,Illuminate,Swarm,Prankster,65,73,75,47,85,85,430,Gen 3
+314,Illumise,Bug,,Firefly Pokémon,0.6,17.7,Oblivious,Lens,Prankster,65,47,75,73,85,85,430,Gen 3
+315,Roselia,Grass,Poison,Thorn Pokémon,0.3,2.0,Cure,Point,Leaf,50,60,45,100,80,65,400,Gen 3
+316,Gulpin,Poison,,Stomach Pokémon,0.4,10.3,Ooze,Hold,Gluttony,70,43,53,43,53,40,302,Gen 3
+317,Swalot,Poison,,Poison Bag Pokémon,1.7,80.0,Ooze,Hold,Gluttony,100,73,83,73,83,55,467,Gen 3
+318,Carvanha,Water,Dark,Savage Pokémon,0.8,20.8,Skin,,Speed,45,90,20,65,20,65,305,Gen 3
+319,Sharpedo,Water,Dark,Brutal Pokémon,1.8,88.8,Skin,,Speed,70,120,40,95,40,95,460,Gen 3
+320,Wailmer,Water,,Ball Whale Pokémon,2.0,130.0,Veil,Oblivious,Pressure,130,70,35,70,35,60,400,Gen 3
+321,Wailord,Water,,Float Whale Pokémon,14.5,398.0,Veil,Oblivious,Pressure,170,90,45,90,45,60,500,Gen 3
+322,Numel,Fire,Ground,Numb Pokémon,0.7,24.0,Oblivious,Simple,Own,60,60,40,65,45,35,305,Gen 3
+323,Camerupt,Fire,Ground,Eruption Pokémon,1.9,220.0,Armor,Rock,Anger,70,100,70,105,75,40,460,Gen 3
+324,Torkoal,Fire,,Coal Pokémon,0.5,80.4,Smoke,Drought,Shell,70,85,140,85,70,20,470,Gen 3
+325,Spoink,Psychic,,Bounce Pokémon,0.7,30.6,Fat,Tempo,Gluttony,60,25,35,70,80,60,330,Gen 3
+326,Grumpig,Psychic,,Manipulate Pokémon,0.9,71.5,Fat,Tempo,Gluttony,80,45,65,90,110,80,470,Gen 3
+327,Spinda,Normal,,Spot Panda Pokémon,1.1,5.0,Tempo,Feet,Contrary,60,60,60,60,60,60,360,Gen 3
+328,Trapinch,Ground,,Ant Pit Pokémon,0.7,15.0,Cutter,Trap,Sheer,45,100,45,45,45,10,290,Gen 3
+329,Vibrava,Ground,Dragon,Vibration Pokémon,1.1,15.3,Levitate,,,50,70,50,50,50,70,340,Gen 3
+330,Flygon,Ground,Dragon,Mystic Pokémon,2.0,82.0,Levitate,,,80,100,80,80,80,100,520,Gen 3
+331,Cacnea,Grass,,Cactus Pokémon,0.4,51.3,Veil,,Water,50,85,40,85,40,35,335,Gen 3
+332,Cacturne,Grass,Dark,Scarecrow Pokémon,1.3,77.4,Veil,,Water,70,115,60,115,60,55,475,Gen 3
+333,Swablu,Normal,Flying,Cotton Bird Pokémon,0.4,1.2,Cure,,Cloud,45,40,60,40,75,50,310,Gen 3
+334,Altaria,Dragon,Flying,Humming Pokémon,1.1,20.6,Cure,,Cloud,75,70,90,70,105,80,490,Gen 3
+335,Zangoose,Normal,,Cat Ferret Pokémon,1.3,40.3,Immunity,,Toxic,73,115,60,60,60,90,458,Gen 3
+336,Seviper,Poison,,Fang Snake Pokémon,2.7,52.5,Skin,,Infiltrator,73,100,60,100,60,65,458,Gen 3
+337,Lunatone,Rock,Psychic,Meteorite Pokémon,1.0,168.0,Levitate,,,90,55,65,95,85,70,460,Gen 3
+338,Solrock,Rock,Psychic,Meteorite Pokémon,1.2,154.0,Levitate,,,90,95,85,55,65,70,460,Gen 3
+339,Barboach,Water,Ground,Whiskers Pokémon,0.4,1.9,Oblivious,Anticipation,Hydration,50,48,43,46,41,60,288,Gen 3
+340,Whiscash,Water,Ground,Whiskers Pokémon,0.9,23.6,Oblivious,Anticipation,Hydration,110,78,73,76,71,60,468,Gen 3
+341,Corphish,Water,,Ruffian Pokémon,0.6,11.5,Cutter,Armor,Adaptability,43,80,65,50,35,35,308,Gen 3
+342,Crawdaunt,Water,Dark,Rogue Pokémon,1.1,32.8,Cutter,Armor,Adaptability,63,120,85,90,55,55,468,Gen 3
+343,Baltoy,Ground,Psychic,Clay Doll Pokémon,0.5,21.5,Levitate,,,40,40,55,40,70,55,300,Gen 3
+344,Claydol,Ground,Psychic,Clay Doll Pokémon,1.5,108.0,Levitate,,,60,70,105,70,120,75,500,Gen 3
+345,Lileep,Rock,Grass,Sea Lily Pokémon,1.0,23.8,Cups,,Storm,66,41,77,61,87,23,355,Gen 3
+346,Cradily,Rock,Grass,Barnacle Pokémon,1.5,60.4,Cups,,Storm,86,81,97,81,107,43,495,Gen 3
+347,Anorith,Rock,Bug,Old Shrimp Pokémon,0.7,12.5,Armor,,Swift,45,95,50,40,50,75,355,Gen 3
+348,Armaldo,Rock,Bug,Plate Pokémon,1.5,68.2,Armor,,Swift,75,125,100,70,80,45,495,Gen 3
+349,Feebas,Water,,Fish Pokémon,0.6,7.4,Swim,Oblivious,Adaptability,20,15,20,10,55,80,200,Gen 3
+350,Milotic,Water,,Tender Pokémon,6.2,162.0,Scale,Competitive,Cute,95,60,79,100,125,81,540,Gen 3
+351,Castform,Normal,,Weather Pokémon,0.3,0.8,Forecast,,,70,70,70,70,70,70,420,Gen 3
+352,Kecleon,Normal,,Color Swap Pokémon,1.0,22.0,Change,,Protean,60,90,70,60,120,40,440,Gen 3
+353,Shuppet,Ghost,,Puppet Pokémon,0.6,2.3,Insomnia,Frisk,Cursed,44,75,35,63,33,45,295,Gen 3
+354,Banette,Ghost,,Marionette Pokémon,1.1,12.5,Insomnia,Frisk,Cursed,64,115,65,83,63,65,455,Gen 3
+355,Duskull,Ghost,,Requiem Pokémon,0.8,15.0,Levitate,,Frisk,20,40,90,30,90,25,295,Gen 3
+356,Dusclops,Ghost,,Beckon Pokémon,1.6,30.6,Pressure,,Frisk,40,70,130,60,130,25,455,Gen 3
+357,Tropius,Grass,Flying,Fruit Pokémon,2.0,100.0,Chlorophyll,Power,Harvest,99,68,83,72,87,51,460,Gen 3
+358,Chimecho,Psychic,,Wind Chime Pokémon,0.6,1.0,Levitate,,,75,50,80,95,90,65,455,Gen 3
+359,Absol,Dark,,Disaster Pokémon,1.2,47.0,Pressure,Luck,Justified,65,130,60,75,60,75,465,Gen 3
+360,Wynaut,Psychic,,Bright Pokémon,0.6,14.0,Tag,,Telepathy,95,23,48,23,48,23,260,Gen 3
+361,Snorunt,Ice,,Snow Hat Pokémon,0.7,16.8,Focus,Body,Moody,50,50,50,50,50,50,300,Gen 3
+362,Glalie,Ice,,Face Pokémon,1.5,256.5,Focus,Body,Moody,80,80,80,80,80,80,480,Gen 3
+363,Spheal,Ice,Water,Clap Pokémon,0.8,39.5,Fat,Body,Oblivious,70,40,50,55,50,25,290,Gen 3
+364,Sealeo,Ice,Water,Ball Roll Pokémon,1.1,87.6,Fat,Body,Oblivious,90,60,70,75,70,45,410,Gen 3
+365,Walrein,Ice,Water,Ice Break Pokémon,1.4,150.6,Fat,Body,Oblivious,110,80,90,95,90,65,530,Gen 3
+366,Clamperl,Water,,Bivalve Pokémon,0.4,52.5,Armor,,Rattled,35,64,85,74,55,32,345,Gen 3
+367,Huntail,Water,,Deep Sea Pokémon,1.7,27.0,Swim,,Water,55,104,105,94,75,52,485,Gen 3
+368,Gorebyss,Water,,South Sea Pokémon,1.8,22.6,Swim,,Hydration,55,84,105,114,75,52,485,Gen 3
+369,Relicanth,Water,Rock,Longevity Pokémon,1.0,23.4,Swim,Head,Sturdy,100,90,130,45,65,55,485,Gen 3
+370,Luvdisc,Water,,Rendezvous Pokémon,0.6,8.7,Swim,,Hydration,43,30,55,40,65,97,330,Gen 3
+371,Bagon,Dragon,,Rock Head Pokémon,0.6,42.1,Head,,Sheer,45,75,60,40,30,50,300,Gen 3
+372,Shelgon,Dragon,,Endurance Pokémon,1.1,110.5,Head,,Overcoat,65,95,100,60,50,50,420,Gen 3
+373,Salamence,Dragon,Flying,Dragon Pokémon,1.5,102.6,Intimidate,,Moxie,95,135,80,110,80,100,600,Gen 3
+374,Beldum,Steel,Psychic,Iron Ball Pokémon,0.6,95.2,Body,,Light,40,55,80,35,60,30,300,Gen 3
+375,Metang,Steel,Psychic,Iron Claw Pokémon,1.2,202.5,Body,,Light,60,75,100,55,80,50,420,Gen 3
+376,Metagross,Steel,Psychic,Iron Leg Pokémon,1.6,550.0,Body,,Light,80,135,130,95,90,70,600,Gen 3
+377,Regirock,Rock,,Rock Peak Pokémon,1.7,230.0,Body,,Sturdy,80,100,200,50,100,50,580,Gen 3
+378,Regice,Ice,,Iceberg Pokémon,1.8,175.0,Body,,Ice,80,50,100,100,200,50,580,Gen 3
+379,Registeel,Steel,,Iron Pokémon,1.9,205.0,Body,,Light,80,75,150,75,150,50,580,Gen 3
+380,Latias,Dragon,Psychic,Eon Pokémon,1.4,40.0,Levitate,,,80,80,90,110,130,110,600,Gen 3
+381,Latios,Dragon,Psychic,Eon Pokémon,2.0,60.0,Levitate,,,80,90,80,130,110,110,600,Gen 3
+382,Kyogre,Water,,Sea Basin Pokémon,4.5,352.0,Drizzle,,,100,100,90,150,140,90,670,Gen 3
+383,Groudon,Ground,,Continent Pokémon,3.5,950.0,Drought,,,100,150,140,100,90,90,670,Gen 3
+384,Rayquaza,Dragon,Flying,Sky High Pokémon,7.0,206.5,Lock,,,105,150,90,150,90,95,680,Gen 3
+385,Jirachi,Steel,Psychic,Wish Pokémon,0.3,1.1,Grace,,,100,100,100,100,100,100,600,Gen 3
+386,Deoxys,Psychic,,Dna Pokémon,1.7,60.8,Pressure,,,50,150,50,150,50,150,600,Gen 3
+387,Turtwig,Grass,,Tiny Leaf Pokémon,0.4,10.2,Overgrow,,Shell,55,68,64,45,55,31,318,Gen 4
+388,Grotle,Grass,,Grove Pokémon,1.1,97.0,Overgrow,,Shell,75,89,85,55,65,36,405,Gen 4
+389,Torterra,Grass,Ground,Continent Pokémon,2.2,310.0,Overgrow,,Shell,95,109,105,75,85,56,525,Gen 4
+390,Chimchar,Fire,,Chimp Pokémon,0.5,6.2,Blaze,,Iron,44,58,44,58,44,61,309,Gen 4
+391,Monferno,Fire,Fighting,Playful Pokémon,0.9,22.0,Blaze,,Iron,64,78,52,78,52,81,405,Gen 4
+392,Infernape,Fire,Fighting,Flame Pokémon,1.2,55.0,Blaze,,Iron,76,104,71,104,71,108,534,Gen 4
+393,Piplup,Water,,Penguin Pokémon,0.4,5.2,Torrent,,Defiant,53,51,53,61,56,40,314,Gen 4
+394,Prinplup,Water,,Penguin Pokémon,0.8,23.0,Torrent,,Defiant,64,66,68,81,76,50,405,Gen 4
+395,Empoleon,Water,Steel,Emperor Pokémon,1.7,84.5,Torrent,,Defiant,84,86,88,111,101,60,530,Gen 4
+396,Starly,Normal,Flying,Starling Pokémon,0.3,2.0,Eye,,Reckless,40,55,30,30,30,60,245,Gen 4
+397,Staravia,Normal,Flying,Starling Pokémon,0.6,15.5,Intimidate,,Reckless,55,75,50,40,40,80,340,Gen 4
+398,Staraptor,Normal,Flying,Predator Pokémon,1.2,24.9,Intimidate,,Reckless,85,120,70,50,60,100,485,Gen 4
+399,Bidoof,Normal,,Plump Mouse Pokémon,0.5,20.0,Simple,Unaware,Moody,59,45,40,35,40,31,250,Gen 4
+400,Bibarel,Normal,Water,Beaver Pokémon,1.0,31.5,Simple,Unaware,Moody,79,85,60,55,60,71,410,Gen 4
+401,Kricketot,Bug,,Cricket Pokémon,0.3,2.2,Skin,,Run,37,25,41,25,41,25,194,Gen 4
+402,Kricketune,Bug,,Cricket Pokémon,1.0,25.5,Swarm,,Technician,77,85,51,55,51,65,384,Gen 4
+403,Shinx,Electric,,Flash Pokémon,0.5,9.5,Rivalry,Intimidate,Guts,45,65,34,40,34,45,263,Gen 4
+404,Luxio,Electric,,Spark Pokémon,0.9,30.5,Rivalry,Intimidate,Guts,60,85,49,60,49,60,363,Gen 4
+405,Luxray,Electric,,Gleam Eyes Pokémon,1.4,42.0,Rivalry,Intimidate,Guts,80,120,79,95,79,70,523,Gen 4
+406,Budew,Grass,Poison,Bud Pokémon,0.2,1.2,Cure,Point,Leaf,40,30,35,50,70,55,280,Gen 4
+407,Roserade,Grass,Poison,Bouquet Pokémon,0.9,14.5,Cure,Point,Technician,60,70,65,125,105,90,515,Gen 4
+408,Cranidos,Rock,,Head Butt Pokémon,0.9,31.5,Breaker,,Sheer,67,125,40,30,30,58,350,Gen 4
+409,Rampardos,Rock,,Head Butt Pokémon,1.6,102.5,Breaker,,Sheer,97,165,60,65,50,58,495,Gen 4
+410,Shieldon,Rock,Steel,Shield Pokémon,0.5,57.0,Sturdy,,Soundproof,30,42,118,42,88,30,350,Gen 4
+411,Bastiodon,Rock,Steel,Shield Pokémon,1.3,149.5,Sturdy,,Soundproof,60,52,168,47,138,30,495,Gen 4
+412,Burmy,Bug,,Bagworm Pokémon,0.2,3.4,Skin,,Overcoat,40,29,45,29,45,36,224,Gen 4
+413,Wormadam,Bug,Grass,Bagworm Pokémon,0.5,6.5,Anticipation,,Overcoat,60,59,85,79,105,36,424,Gen 4
+414,Mothim,Bug,Flying,Moth Pokémon,0.9,23.3,Swarm,,Tinted,70,94,50,94,50,66,424,Gen 4
+415,Combee,Bug,Flying,Tiny Bee Pokémon,0.3,5.5,Gather,,Hustle,30,30,42,30,42,70,244,Gen 4
+416,Vespiquen,Bug,Flying,Beehive Pokémon,1.2,38.5,Pressure,,Unnerve,70,80,102,80,102,40,474,Gen 4
+417,Pachirisu,Electric,,Elesquirrel Pokémon,0.4,3.9,Away,Pickup,Volt,60,45,70,45,90,95,405,Gen 4
+418,Buizel,Water,,Sea Weasel Pokémon,0.7,29.5,Swim,,Water,55,65,35,60,30,85,330,Gen 4
+419,Floatzel,Water,,Sea Weasel Pokémon,1.1,33.5,Swim,,Water,85,105,55,85,50,115,495,Gen 4
+420,Cherubi,Grass,,Cherry Pokémon,0.4,3.3,Chlorophyll,,,45,35,45,62,53,35,275,Gen 4
+421,Cherrim,Grass,,Blossom Pokémon,0.5,9.3,Gift,,,70,60,70,87,78,85,450,Gen 4
+422,Shellos,Water,,Sea Slug Pokémon,0.3,6.3,Hold,Drain,Sand,76,48,48,57,62,34,325,Gen 4
+423,Gastrodon,Water,Ground,Sea Slug Pokémon,0.9,29.9,Hold,Drain,Sand,111,83,68,92,82,39,475,Gen 4
+424,Ambipom,Normal,,Long Tail Pokémon,1.2,20.3,Technician,Pickup,Skill,75,100,66,60,66,115,482,Gen 4
+425,Drifloon,Ghost,Flying,Balloon Pokémon,0.4,1.2,Aftermath,Unburden,Flare,90,50,34,60,44,70,348,Gen 4
+426,Drifblim,Ghost,Flying,Blimp Pokémon,1.2,15.0,Aftermath,Unburden,Flare,150,80,44,90,54,80,498,Gen 4
+427,Buneary,Normal,,Rabbit Pokémon,0.4,5.5,Away,Klutz,Limber,55,66,44,44,56,85,350,Gen 4
+428,Lopunny,Normal,,Rabbit Pokémon,1.2,33.3,Charm,Klutz,Limber,65,76,84,54,96,105,480,Gen 4
+429,Mismagius,Ghost,,Magical Pokémon,0.9,4.4,Levitate,,,60,60,60,105,105,105,495,Gen 4
+430,Honchkrow,Dark,Flying,Big Boss Pokémon,0.9,27.3,Insomnia,Luck,Moxie,100,125,52,105,52,71,505,Gen 4
+431,Glameow,Normal,,Catty Pokémon,0.5,3.9,Limber,Tempo,Keen,49,55,42,42,37,85,310,Gen 4
+432,Purugly,Normal,,Tiger Cat Pokémon,1.0,43.8,Fat,Tempo,Defiant,71,82,64,64,59,112,452,Gen 4
+433,Chingling,Psychic,,Bell Pokémon,0.2,0.6,Levitate,,,45,30,50,65,50,45,285,Gen 4
+434,Stunky,Poison,Dark,Skunk Pokémon,0.4,19.2,Stench,Aftermath,Keen,63,63,47,41,41,74,329,Gen 4
+435,Skuntank,Poison,Dark,Skunk Pokémon,1.0,38.0,Stench,Aftermath,Keen,103,93,67,71,61,84,479,Gen 4
+436,Bronzor,Steel,Psychic,Bronze Pokémon,0.5,60.5,Levitate,Heatproof,Heavy,57,24,86,24,86,23,300,Gen 4
+437,Bronzong,Steel,Psychic,Bronze Bell Pokémon,1.3,187.0,Levitate,Heatproof,Heavy,67,89,116,79,116,33,500,Gen 4
+438,Bonsly,Rock,,Bonsai Pokémon,0.5,15.0,Sturdy,Head,Rattled,50,80,95,10,45,10,290,Gen 4
+439,Mime Jr.,Psychic,Fairy,Mime Pokémon,0.6,13.0,Soundproof,Filter,Technician,20,25,45,70,90,60,310,Gen 4
+440,Happiny,Normal,,Playhouse Pokémon,0.6,24.4,Cure,Grace,Friend,100,5,5,15,65,30,220,Gen 4
+441,Chatot,Normal,Flying,Music Note Pokémon,0.5,1.9,Eye,Feet,Big,76,65,45,92,42,91,411,Gen 4
+442,Spiritomb,Ghost,Dark,Forbidden Pokémon,1.0,108.0,Pressure,,Infiltrator,50,92,108,92,108,35,485,Gen 4
+443,Gible,Dragon,Ground,Land Shark Pokémon,0.7,20.5,Veil,,Rough,58,70,45,40,45,42,300,Gen 4
+444,Gabite,Dragon,Ground,Cave Pokémon,1.4,56.0,Veil,,Rough,68,90,65,50,55,82,410,Gen 4
+445,Garchomp,Dragon,Ground,Mach Pokémon,1.9,95.0,Veil,,Rough,108,130,95,80,85,102,600,Gen 4
+446,Munchlax,Normal,,Big Eater Pokémon,0.6,105.0,Pickup,Fat,Gluttony,135,85,40,40,85,5,390,Gen 4
+447,Riolu,Fighting,,Emanation Pokémon,0.7,20.2,Steadfast,Focus,Prankster,40,70,40,35,40,60,285,Gen 4
+448,Lucario,Fighting,Steel,Aura Pokémon,1.2,54.0,Steadfast,Focus,Justified,70,110,70,115,70,90,525,Gen 4
+449,Hippopotas,Ground,,Hippo Pokémon,0.8,49.5,Stream,,Sand,68,72,78,38,42,32,330,Gen 4
+450,Hippowdon,Ground,,Heavyweight Pokémon,2.0,300.0,Stream,,Sand,108,112,118,68,72,47,525,Gen 4
+451,Skorupi,Poison,Bug,Scorpion Pokémon,0.8,12.0,Armor,Sniper,Keen,40,50,90,30,55,65,330,Gen 4
+452,Drapion,Poison,Dark,Ogre Scorp Pokémon,1.3,61.5,Armor,Sniper,Keen,70,90,110,60,75,95,500,Gen 4
+453,Croagunk,Poison,Fighting,Toxic Mouth Pokémon,0.7,23.0,Anticipation,Skin,Poison,48,61,40,61,40,50,300,Gen 4
+454,Toxicroak,Poison,Fighting,Toxic Mouth Pokémon,1.3,44.4,Anticipation,Skin,Poison,83,106,65,86,65,85,490,Gen 4
+455,Carnivine,Grass,,Bug Catcher Pokémon,1.4,27.0,Levitate,,,74,100,72,90,72,46,454,Gen 4
+456,Finneon,Water,,Wing Fish Pokémon,0.4,7.0,Swim,Drain,Water,49,49,56,49,61,66,330,Gen 4
+457,Lumineon,Water,,Neon Pokémon,1.2,24.0,Swim,Drain,Water,69,69,76,69,86,91,460,Gen 4
+458,Mantyke,Water,Flying,Kite Pokémon,1.0,65.0,Swim,Absorb,Water,45,20,50,60,120,50,345,Gen 4
+459,Snover,Grass,Ice,Frost Tree Pokémon,1.0,50.5,Warning,,Soundproof,60,62,50,62,60,40,334,Gen 4
+460,Abomasnow,Grass,Ice,Frost Tree Pokémon,2.2,135.5,Warning,,Soundproof,90,92,75,92,85,60,494,Gen 4
+461,Weavile,Dark,Ice,Sharp Claw Pokémon,1.1,34.0,Pressure,,Pickpocket,70,120,65,45,85,125,510,Gen 4
+462,Magnezone,Electric,Steel,Magnet Area Pokémon,1.2,180.0,Pull,Sturdy,Analytic,70,70,115,130,90,60,535,Gen 4
+463,Lickilicky,Normal,,Licking Pokémon,1.7,140.0,Tempo,Oblivious,Cloud,110,85,95,80,95,50,515,Gen 4
+464,Rhyperior,Ground,Rock,Drill Pokémon,2.4,282.8,Rod,Rock,Reckless,115,140,130,55,55,40,535,Gen 4
+465,Tangrowth,Grass,,Vine Pokémon,2.0,128.6,Chlorophyll,Guard,Regenerator,100,100,125,110,50,50,535,Gen 4
+466,Electivire,Electric,,Thunderbolt Pokémon,1.8,138.6,Drive,,Vital,75,123,67,95,85,95,540,Gen 4
+467,Magmortar,Fire,,Blast Pokémon,1.6,68.0,Body,,Vital,75,95,67,125,95,83,540,Gen 4
+468,Togekiss,Fairy,Flying,Jubilee Pokémon,1.5,38.0,Hustle,Grace,Super,85,50,95,120,115,80,545,Gen 4
+469,Yanmega,Bug,Flying,Ogre Darner Pokémon,1.9,51.5,Boost,Lens,Frisk,86,76,86,116,56,95,515,Gen 4
+470,Leafeon,Grass,,Verdant Pokémon,1.0,25.5,Guard,,Chlorophyll,65,110,130,60,65,95,525,Gen 4
+471,Glaceon,Ice,,Fresh Snow Pokémon,0.8,25.9,Cloak,,Ice,65,60,110,130,95,65,525,Gen 4
+472,Gliscor,Ground,Flying,Fang Scorp Pokémon,2.0,42.5,Cutter,Veil,Poison,75,95,125,45,75,95,510,Gen 4
+473,Mamoswine,Ice,Ground,Twin Tusk Pokémon,2.5,291.0,Oblivious,Cloak,Thick,110,130,80,70,60,80,530,Gen 4
+474,Porygon-Z,Normal,,Virtual Pokémon,0.9,34.0,Adaptability,Download,Analytic,85,80,70,135,75,90,535,Gen 4
+475,Gallade,Psychic,Fighting,Blade Pokémon,1.6,52.0,Steadfast,Sharpness,Justified,68,125,65,65,115,80,518,Gen 4
+476,Probopass,Rock,Steel,Compass Pokémon,1.4,340.0,Sturdy,Pull,Sand,60,55,145,75,150,40,525,Gen 4
+477,Dusknoir,Ghost,,Gripper Pokémon,2.2,106.6,Pressure,,Frisk,45,100,135,65,135,45,525,Gen 4
+478,Froslass,Ice,Ghost,Snow Land Pokémon,1.3,26.6,Cloak,,Cursed,70,80,70,80,70,110,480,Gen 4
+479,Rotom,Electric,Ghost,Plasma Pokémon,0.3,0.3,Levitate,,,50,50,77,95,77,91,440,Gen 4
+480,Uxie,Psychic,,Knowledge Pokémon,0.3,0.3,Levitate,,,75,75,130,75,130,95,580,Gen 4
+481,Mesprit,Psychic,,Emotion Pokémon,0.3,0.3,Levitate,,,80,105,105,105,105,80,580,Gen 4
+482,Azelf,Psychic,,Willpower Pokémon,0.3,0.3,Levitate,,,75,125,70,125,70,115,580,Gen 4
+483,Dialga,Steel,Dragon,Temporal Pokémon,5.4,683.0,Pressure,,Telepathy,100,120,120,150,100,90,680,Gen 4
+484,Palkia,Water,Dragon,Spatial Pokémon,4.2,336.0,Pressure,,Telepathy,90,120,100,150,120,100,680,Gen 4
+485,Heatran,Fire,Steel,Lava Dome Pokémon,1.7,430.0,Fire,,Flame,91,90,106,130,106,77,600,Gen 4
+486,Regigigas,Normal,,Colossal Pokémon,3.7,420.0,Start,,,110,160,110,80,110,100,670,Gen 4
+487,Giratina,Ghost,Dragon,Renegade Pokémon,4.5,750.0,Pressure,,Telepathy,150,100,120,100,120,90,680,Gen 4
+488,Cresselia,Psychic,,Lunar Pokémon,1.5,85.6,Levitate,,,120,70,110,75,120,85,580,Gen 4
+489,Phione,Water,,Sea Drifter Pokémon,0.4,3.1,Hydration,,,80,80,80,80,80,80,480,Gen 4
+490,Manaphy,Water,,Seafaring Pokémon,0.3,1.4,Hydration,,,100,100,100,100,100,100,600,Gen 4
+491,Darkrai,Dark,,Pitch-Black Pokémon,1.5,50.5,Dreams,,,70,90,90,135,90,125,600,Gen 4
+492,Shaymin,Grass,,Gratitude Pokémon,0.2,2.1,Cure,,,100,100,100,100,100,100,600,Gen 4
+493,Arceus,Normal,,Alpha Pokémon,3.2,320.0,Multitype,,,120,120,120,120,120,120,720,Gen 4
+494,Victini,Psychic,Fire,Victory Pokémon,0.4,4.0,Star,,,100,100,100,100,100,100,600,Gen 5
+495,Snivy,Grass,,Grass Snake Pokémon,0.6,8.1,Overgrow,,Contrary,45,45,55,45,55,63,308,Gen 5
+496,Servine,Grass,,Grass Snake Pokémon,0.8,16.0,Overgrow,,Contrary,60,60,75,60,75,83,413,Gen 5
+497,Serperior,Grass,,Regal Pokémon,3.3,63.0,Overgrow,,Contrary,75,75,95,75,95,113,528,Gen 5
+498,Tepig,Fire,,Fire Pig Pokémon,0.5,9.9,Blaze,,Thick,65,63,45,45,45,45,308,Gen 5
+499,Pignite,Fire,Fighting,Fire Pig Pokémon,1.0,55.5,Blaze,,Thick,90,93,55,70,55,55,418,Gen 5
+500,Emboar,Fire,Fighting,Mega Fire Pig Pokémon,1.6,150.0,Blaze,,Reckless,110,123,65,100,65,65,528,Gen 5
+501,Oshawott,Water,,Sea Otter Pokémon,0.5,5.9,Torrent,,Shell,55,55,45,63,45,45,308,Gen 5
+502,Dewott,Water,,Discipline Pokémon,0.8,24.5,Torrent,,Shell,75,75,60,83,60,60,413,Gen 5
+503,Samurott,Water,,Formidable Pokémon,1.5,94.6,Torrent,,Shell,95,100,85,108,70,70,528,Gen 5
+504,Patrat,Normal,,Scout Pokémon,0.5,11.6,Away,Eye,Analytic,45,55,39,35,39,42,255,Gen 5
+505,Watchog,Normal,,Lookout Pokémon,1.1,27.0,Illuminate,Eye,Analytic,60,85,69,60,69,77,420,Gen 5
+506,Lillipup,Normal,,Puppy Pokémon,0.4,4.1,Spirit,Pickup,Run,45,60,45,25,45,55,275,Gen 5
+507,Herdier,Normal,,Loyal Dog Pokémon,0.9,14.7,Intimidate,Rush,Scrappy,65,80,65,35,65,60,370,Gen 5
+508,Stoutland,Normal,,Big-Hearted Pokémon,1.2,61.0,Intimidate,Rush,Scrappy,85,110,90,45,90,80,500,Gen 5
+509,Purrloin,Dark,,Devious Pokémon,0.4,10.1,Limber,Unburden,Prankster,41,50,37,50,37,66,281,Gen 5
+510,Liepard,Dark,,Cruel Pokémon,1.1,37.5,Limber,Unburden,Prankster,64,88,50,88,50,106,446,Gen 5
+511,Pansage,Grass,,Grass Monkey Pokémon,0.6,10.5,Gluttony,,Overgrow,50,53,48,53,48,64,316,Gen 5
+512,Simisage,Grass,,Thorn Monkey Pokémon,1.1,30.5,Gluttony,,Overgrow,75,98,63,98,63,101,498,Gen 5
+513,Pansear,Fire,,High Temp Pokémon,0.6,11.0,Gluttony,,Blaze,50,53,48,53,48,64,316,Gen 5
+514,Simisear,Fire,,Ember Pokémon,1.0,28.0,Gluttony,,Blaze,75,98,63,98,63,101,498,Gen 5
+515,Panpour,Water,,Spray Pokémon,0.6,13.5,Gluttony,,Torrent,50,53,48,53,48,64,316,Gen 5
+516,Simipour,Water,,Geyser Pokémon,1.0,29.0,Gluttony,,Torrent,75,98,63,98,63,101,498,Gen 5
+517,Munna,Psychic,,Dream Eater Pokémon,0.6,23.3,Forewarn,Synchronize,Telepathy,76,25,45,67,55,24,292,Gen 5
+518,Musharna,Psychic,,Drowsing Pokémon,1.1,60.5,Forewarn,Synchronize,Telepathy,116,55,85,107,95,29,487,Gen 5
+519,Pidove,Normal,Flying,Tiny Pigeon Pokémon,0.3,2.1,Pecks,Luck,Rivalry,50,55,50,36,30,43,264,Gen 5
+520,Tranquill,Normal,Flying,Wild Pigeon Pokémon,0.6,15.0,Pecks,Luck,Rivalry,62,77,62,50,42,65,358,Gen 5
+521,Unfezant,Normal,Flying,Proud Pokémon,1.2,29.0,Pecks,Luck,Rivalry,80,115,80,65,55,93,488,Gen 5
+522,Blitzle,Electric,,Electrified Pokémon,0.8,29.8,Rod,Drive,Sap,45,60,32,50,32,76,295,Gen 5
+523,Zebstrika,Electric,,Thunderbolt Pokémon,1.6,79.5,Rod,Drive,Sap,75,100,63,80,63,116,497,Gen 5
+524,Roggenrola,Rock,,Mantle Pokémon,0.4,18.0,Sturdy,Armor,Sand,55,75,85,25,25,15,280,Gen 5
+525,Boldore,Rock,,Ore Pokémon,0.9,102.0,Sturdy,Armor,Sand,70,105,105,50,40,20,390,Gen 5
+526,Gigalith,Rock,,Compressed Pokémon,1.7,260.0,Sturdy,Stream,Sand,85,135,130,60,80,25,515,Gen 5
+527,Woobat,Psychic,Flying,Bat Pokémon,0.4,2.1,Unaware,Klutz,Simple,65,45,43,55,43,72,323,Gen 5
+528,Swoobat,Psychic,Flying,Courting Pokémon,0.9,10.5,Unaware,Klutz,Simple,67,57,55,77,55,114,425,Gen 5
+529,Drilbur,Ground,,Mole Pokémon,0.3,8.5,Rush,Force,Mold,60,85,40,30,45,68,328,Gen 5
+530,Excadrill,Ground,Steel,Subterrene Pokémon,0.7,40.4,Rush,Force,Mold,110,135,60,50,65,88,508,Gen 5
+531,Audino,Normal,,Hearing Pokémon,1.1,31.0,Healer,Regenerator,Klutz,103,60,86,60,86,50,445,Gen 5
+532,Timburr,Fighting,,Muscular Pokémon,0.6,12.5,Guts,Force,Iron,75,80,55,25,35,35,305,Gen 5
+533,Gurdurr,Fighting,,Muscular Pokémon,1.2,40.0,Guts,Force,Iron,85,105,85,40,50,40,405,Gen 5
+534,Conkeldurr,Fighting,,Muscular Pokémon,1.4,87.0,Guts,Force,Iron,105,140,95,55,65,45,505,Gen 5
+535,Tympole,Water,,Tadpole Pokémon,0.5,4.5,Swim,Hydration,Water,50,50,40,50,40,64,294,Gen 5
+536,Palpitoad,Water,Ground,Vibration Pokémon,0.8,17.0,Swim,Hydration,Water,75,65,55,65,55,69,384,Gen 5
+537,Seismitoad,Water,Ground,Vibration Pokémon,1.5,62.0,Swim,Touch,Water,105,95,75,85,75,74,509,Gen 5
+538,Throh,Fighting,,Judo Pokémon,1.3,55.5,Guts,Focus,Mold,120,100,85,30,85,45,465,Gen 5
+539,Sawk,Fighting,,Karate Pokémon,1.4,51.0,Sturdy,Focus,Mold,75,125,75,30,75,85,465,Gen 5
+540,Sewaddle,Bug,Grass,Sewing Pokémon,0.3,2.5,Swarm,Chlorophyll,Overcoat,45,53,70,40,60,42,310,Gen 5
+541,Swadloon,Bug,Grass,Leaf-Wrapped Pokémon,0.5,7.3,Guard,Chlorophyll,Overcoat,55,63,90,50,80,42,380,Gen 5
+542,Leavanny,Bug,Grass,Nurturing Pokémon,1.2,20.5,Swarm,Chlorophyll,Overcoat,75,103,80,70,80,92,500,Gen 5
+543,Venipede,Bug,Poison,Centipede Pokémon,0.4,5.3,Point,Swarm,Speed,30,45,59,30,39,57,260,Gen 5
+544,Whirlipede,Bug,Poison,Curlipede Pokémon,1.2,58.5,Point,Swarm,Speed,40,55,99,40,79,47,360,Gen 5
+545,Scolipede,Bug,Poison,Megapede Pokémon,2.5,200.5,Point,Swarm,Speed,60,100,89,55,69,112,485,Gen 5
+546,Cottonee,Grass,Fairy,Cotton Puff Pokémon,0.3,0.6,Prankster,Infiltrator,Chlorophyll,40,27,60,37,50,66,280,Gen 5
+547,Whimsicott,Grass,Fairy,Windveiled Pokémon,0.7,6.6,Prankster,Infiltrator,Chlorophyll,60,67,85,77,75,116,480,Gen 5
+548,Petilil,Grass,,Bulb Pokémon,0.5,6.6,Chlorophyll,Tempo,Leaf,45,35,50,70,50,30,280,Gen 5
+549,Lilligant,Grass,,Flowering Pokémon,1.1,16.3,Chlorophyll,Tempo,Leaf,70,60,75,110,75,90,480,Gen 5
+550,Basculin,Water,,Hostile Pokémon,1.0,18.0,Reckless,Adaptability,Mold,70,92,65,80,55,98,460,Gen 5
+551,Sandile,Ground,Dark,Desert Croc Pokémon,0.7,15.2,Intimidate,Moxie,Anger,50,72,35,35,35,65,292,Gen 5
+552,Krokorok,Ground,Dark,Desert Croc Pokémon,1.0,33.4,Intimidate,Moxie,Anger,60,82,45,45,45,74,351,Gen 5
+553,Krookodile,Ground,Dark,Intimidation Pokémon,1.5,96.3,Intimidate,Moxie,Anger,95,117,80,65,70,92,519,Gen 5
+554,Darumaka,Fire,,Zen Charm Pokémon,0.6,37.5,Hustle,,Inner,70,90,45,15,45,50,315,Gen 5
+555,Darmanitan,Fire,,Blazing Pokémon,1.3,92.9,Force,,Zen,105,140,55,30,55,95,480,Gen 5
+556,Maractus,Grass,,Cactus Pokémon,1.0,28.0,Absorb,Chlorophyll,Storm,75,86,67,106,67,60,461,Gen 5
+557,Dwebble,Bug,Rock,Rock Inn Pokémon,0.3,14.5,Sturdy,Armor,Weak,50,65,85,35,35,55,325,Gen 5
+558,Crustle,Bug,Rock,Stone Home Pokémon,1.4,200.0,Sturdy,Armor,Weak,70,105,125,65,75,45,485,Gen 5
+559,Scraggy,Dark,Fighting,Shedding Pokémon,0.6,11.8,Skin,Moxie,Intimidate,50,75,70,35,70,48,348,Gen 5
+560,Scrafty,Dark,Fighting,Hoodlum Pokémon,1.1,30.0,Skin,Moxie,Intimidate,65,90,115,45,115,58,488,Gen 5
+561,Sigilyph,Psychic,Flying,Avianoid Pokémon,1.4,14.0,Skin,Guard,Tinted,72,58,80,103,80,97,490,Gen 5
+562,Yamask,Ghost,,Spirit Pokémon,0.5,1.5,Mummy,,,38,30,85,55,65,30,303,Gen 5
+563,Cofagrigus,Ghost,,Coffin Pokémon,1.7,76.5,Mummy,,,58,50,145,95,105,30,483,Gen 5
+564,Tirtouga,Water,Rock,Prototurtle Pokémon,0.7,16.5,Rock,Sturdy,Swift,54,78,103,53,45,22,355,Gen 5
+565,Carracosta,Water,Rock,Prototurtle Pokémon,1.2,81.0,Rock,Sturdy,Swift,74,108,133,83,65,32,495,Gen 5
+566,Archen,Rock,Flying,First Bird Pokémon,0.5,9.5,Defeatist,,,55,112,45,74,45,70,401,Gen 5
+567,Archeops,Rock,Flying,First Bird Pokémon,1.4,32.0,Defeatist,,,75,140,65,112,65,110,567,Gen 5
+568,Trubbish,Poison,,Trash Bag Pokémon,0.6,31.0,Stench,Hold,Aftermath,50,50,62,40,62,65,329,Gen 5
+569,Garbodor,Poison,,Trash Heap Pokémon,1.9,107.3,Stench,Armor,Aftermath,80,95,82,60,82,75,474,Gen 5
+570,Zorua,Dark,,Tricky Fox Pokémon,0.7,12.5,Illusion,,,40,65,40,80,40,65,330,Gen 5
+571,Zoroark,Dark,,Illusion Fox Pokémon,1.6,81.1,Illusion,,,60,105,60,120,60,105,510,Gen 5
+572,Minccino,Normal,,Chinchilla Pokémon,0.4,5.8,Charm,Technician,Skill,55,50,40,40,40,75,300,Gen 5
+573,Cinccino,Normal,,Scarf Pokémon,0.5,7.5,Charm,Technician,Skill,75,95,60,65,60,115,470,Gen 5
+574,Gothita,Psychic,,Fixation Pokémon,0.4,5.8,Frisk,Competitive,Shadow,45,30,50,55,65,45,290,Gen 5
+575,Gothorita,Psychic,,Manipulate Pokémon,0.7,18.0,Frisk,Competitive,Shadow,60,45,70,75,85,55,390,Gen 5
+576,Gothitelle,Psychic,,Astral Body Pokémon,1.5,44.0,Frisk,Competitive,Shadow,70,55,95,95,110,65,490,Gen 5
+577,Solosis,Psychic,,Cell Pokémon,0.3,1.0,Overcoat,Guard,Regenerator,45,30,40,105,50,20,290,Gen 5
+578,Duosion,Psychic,,Mitosis Pokémon,0.6,8.0,Overcoat,Guard,Regenerator,65,40,50,125,60,30,370,Gen 5
+579,Reuniclus,Psychic,,Multiplying Pokémon,1.0,20.1,Overcoat,Guard,Regenerator,110,65,75,125,85,30,490,Gen 5
+580,Ducklett,Water,Flying,Water Bird Pokémon,0.5,5.5,Eye,Pecks,Hydration,62,44,50,44,50,55,305,Gen 5
+581,Swanna,Water,Flying,White Bird Pokémon,1.3,24.2,Eye,Pecks,Hydration,75,87,63,87,63,98,473,Gen 5
+582,Vanillite,Ice,,Fresh Snow Pokémon,0.4,5.7,Body,Cloak,Weak,36,50,50,65,60,44,305,Gen 5
+583,Vanillish,Ice,,Icy Snow Pokémon,1.1,41.0,Body,Cloak,Weak,51,65,65,80,75,59,395,Gen 5
+584,Vanilluxe,Ice,,Snowstorm Pokémon,1.3,57.5,Body,Warning,Weak,71,95,85,110,95,79,535,Gen 5
+585,Deerling,Normal,Grass,Season Pokémon,0.6,19.5,Chlorophyll,Sipper,Serene,60,60,50,40,50,75,335,Gen 5
+586,Sawsbuck,Normal,Grass,Season Pokémon,1.9,92.5,Chlorophyll,Sipper,Serene,80,100,70,60,70,95,475,Gen 5
+587,Emolga,Electric,Flying,Sky Squirrel Pokémon,0.4,5.0,Static,,Motor,55,75,60,75,60,103,428,Gen 5
+588,Karrablast,Bug,,Clamping Pokémon,0.5,5.9,Swarm,Skin,No,50,75,45,40,45,60,315,Gen 5
+589,Escavalier,Bug,Steel,Cavalry Pokémon,1.0,33.0,Swarm,Armor,Overcoat,70,135,105,60,105,20,495,Gen 5
+590,Foongus,Grass,Poison,Mushroom Pokémon,0.2,1.0,Spore,,Regenerator,69,55,45,55,55,15,294,Gen 5
+591,Amoonguss,Grass,Poison,Mushroom Pokémon,0.6,10.5,Spore,,Regenerator,114,85,70,85,80,30,464,Gen 5
+592,Frillish,Water,Ghost,Floating Pokémon,1.2,33.0,Absorb,Body,Damp,55,40,50,65,85,40,335,Gen 5
+593,Jellicent,Water,Ghost,Floating Pokémon,2.2,135.0,Absorb,Body,Damp,100,60,70,85,105,60,480,Gen 5
+594,Alomomola,Water,,Caring Pokémon,1.2,31.6,Healer,Hydration,Regenerator,165,75,80,40,45,65,470,Gen 5
+595,Joltik,Bug,Electric,Attaching Pokémon,0.1,0.6,Eyes,Unnerve,Swarm,50,47,50,57,50,65,319,Gen 5
+596,Galvantula,Bug,Electric,Elespider Pokémon,0.8,14.3,Eyes,Unnerve,Swarm,70,77,60,97,60,108,472,Gen 5
+597,Ferroseed,Grass,Steel,Thorn Seed Pokémon,0.6,18.8,Barbs,,,44,50,91,24,86,10,305,Gen 5
+598,Ferrothorn,Grass,Steel,Thorn Pod Pokémon,1.0,110.0,Barbs,,Anticipation,74,94,131,54,116,20,489,Gen 5
+599,Klink,Steel,,Gear Pokémon,0.3,21.0,Plus,Minus,Clear,40,55,70,45,60,30,300,Gen 5
+600,Klang,Steel,,Gear Pokémon,0.6,51.0,Plus,Minus,Clear,60,80,95,70,85,50,440,Gen 5
+601,Klinklang,Steel,,Gear Pokémon,0.6,81.0,Plus,Minus,Clear,60,100,115,70,85,90,520,Gen 5
+602,Tynamo,Electric,,Elefish Pokémon,0.2,0.3,Levitate,,,35,55,40,45,40,60,275,Gen 5
+603,Eelektrik,Electric,,Elefish Pokémon,1.2,22.0,Levitate,,,65,85,70,75,70,40,405,Gen 5
+604,Eelektross,Electric,,Elefish Pokémon,2.1,80.5,Levitate,,,85,115,80,105,80,50,515,Gen 5
+605,Elgyem,Psychic,,Cerebral Pokémon,0.5,9.0,Telepathy,Synchronize,Analytic,55,55,55,85,55,30,335,Gen 5
+606,Beheeyem,Psychic,,Cerebral Pokémon,1.0,34.5,Telepathy,Synchronize,Analytic,75,75,75,125,95,40,485,Gen 5
+607,Litwick,Ghost,Fire,Candle Pokémon,0.3,3.1,Fire,Body,Infiltrator,50,30,55,65,55,20,275,Gen 5
+608,Lampent,Ghost,Fire,Lamp Pokémon,0.6,13.0,Fire,Body,Infiltrator,60,40,60,95,60,55,370,Gen 5
+609,Chandelure,Ghost,Fire,Luring Pokémon,1.0,34.3,Fire,Body,Infiltrator,60,55,90,145,90,80,520,Gen 5
+610,Axew,Dragon,,Tusk Pokémon,0.6,18.0,Rivalry,Breaker,Unnerve,46,87,60,30,40,57,320,Gen 5
+611,Fraxure,Dragon,,Axe Jaw Pokémon,1.0,36.0,Rivalry,Breaker,Unnerve,66,117,70,40,50,67,410,Gen 5
+612,Haxorus,Dragon,,Axe Jaw Pokémon,1.8,105.5,Rivalry,Breaker,Unnerve,76,147,90,60,70,97,540,Gen 5
+613,Cubchoo,Ice,,Chill Pokémon,0.5,8.5,Cloak,Rush,Rattled,55,70,40,60,40,40,305,Gen 5
+614,Beartic,Ice,,Freezing Pokémon,2.6,260.0,Cloak,Rush,Swift,95,130,80,70,80,50,505,Gen 5
+615,Cryogonal,Ice,,Crystallizing Pokémon,1.1,148.0,Levitate,,,80,50,50,95,135,105,515,Gen 5
+616,Shelmet,Bug,,Snail Pokémon,0.4,7.7,Hydration,Armor,Overcoat,50,40,85,40,65,25,305,Gen 5
+617,Accelgor,Bug,,Shell Out Pokémon,0.8,25.3,Hydration,Hold,Unburden,80,70,40,100,60,145,495,Gen 5
+618,Stunfisk,Ground,Electric,Trap Pokémon,0.7,11.0,Static,Limber,Sand,109,66,84,81,99,32,471,Gen 5
+619,Mienfoo,Fighting,,Martial Arts Pokémon,0.9,20.0,Focus,Regenerator,Reckless,45,85,50,55,50,65,350,Gen 5
+620,Mienshao,Fighting,,Martial Arts Pokémon,1.4,35.5,Focus,Regenerator,Reckless,65,125,60,95,60,105,510,Gen 5
+621,Druddigon,Dragon,,Cave Pokémon,1.6,139.0,Skin,Force,Mold,77,120,90,60,90,48,485,Gen 5
+622,Golett,Ground,Ghost,Automaton Pokémon,1.0,92.0,Fist,Klutz,No,59,74,50,35,50,35,303,Gen 5
+623,Golurk,Ground,Ghost,Automaton Pokémon,2.8,330.0,Fist,Klutz,No,89,124,80,55,80,55,483,Gen 5
+624,Pawniard,Dark,Steel,Sharp Blade Pokémon,0.5,10.2,Defiant,Focus,Pressure,45,85,70,40,40,60,340,Gen 5
+625,Bisharp,Dark,Steel,Sword Blade Pokémon,1.6,70.0,Defiant,Focus,Pressure,65,125,100,60,70,70,490,Gen 5
+626,Bouffalant,Normal,,Bash Buffalo Pokémon,1.6,94.6,Reckless,Sipper,Soundproof,95,110,95,40,95,55,490,Gen 5
+627,Rufflet,Normal,Flying,Eaglet Pokémon,0.5,10.5,Eye,Force,Hustle,70,83,50,37,50,60,350,Gen 5
+628,Braviary,Normal,Flying,Valiant Pokémon,1.5,41.0,Eye,Force,Defiant,100,123,75,57,75,80,510,Gen 5
+629,Vullaby,Dark,Flying,Diapered Pokémon,0.5,9.0,Pecks,Overcoat,Weak,70,55,75,45,65,60,370,Gen 5
+630,Mandibuzz,Dark,Flying,Bone Vulture Pokémon,1.2,39.5,Pecks,Overcoat,Weak,110,65,105,55,95,80,510,Gen 5
+631,Heatmor,Fire,,Anteater Pokémon,1.4,58.0,Gluttony,Fire,White,85,97,66,105,66,65,484,Gen 5
+632,Durant,Bug,Steel,Iron Ant Pokémon,0.3,33.0,Swarm,Hustle,Truant,58,109,112,48,48,109,484,Gen 5
+633,Deino,Dark,Dragon,Irate Pokémon,0.8,17.3,Hustle,,,52,65,50,45,50,38,300,Gen 5
+634,Zweilous,Dark,Dragon,Hostile Pokémon,1.4,50.0,Hustle,,,72,85,70,65,70,58,420,Gen 5
+635,Hydreigon,Dark,Dragon,Brutal Pokémon,1.8,160.0,Levitate,,,92,105,90,125,90,98,600,Gen 5
+636,Larvesta,Bug,Fire,Torch Pokémon,1.1,28.8,Body,,Swarm,55,85,55,50,55,60,360,Gen 5
+637,Volcarona,Bug,Fire,Sun Pokémon,1.6,46.0,Body,,Swarm,85,60,65,135,105,100,550,Gen 5
+638,Cobalion,Steel,Fighting,Iron Will Pokémon,2.1,250.0,Justified,,,91,90,129,90,72,108,580,Gen 5
+639,Terrakion,Rock,Fighting,Cavern Pokémon,1.9,260.0,Justified,,,91,129,90,72,90,108,580,Gen 5
+640,Virizion,Grass,Fighting,Grassland Pokémon,2.0,200.0,Justified,,,91,90,72,90,129,108,580,Gen 5
+641,Tornadus,Flying,,Cyclone Pokémon,1.5,63.0,Prankster,,Defiant,79,115,70,125,80,111,580,Gen 5
+642,Thundurus,Electric,Flying,Bolt Strike Pokémon,1.5,61.0,Prankster,,Defiant,79,115,70,125,80,111,580,Gen 5
+643,Reshiram,Dragon,Fire,Vast White Pokémon,3.2,330.0,Turboblaze,,,100,120,100,150,120,90,680,Gen 5
+644,Zekrom,Dragon,Electric,Deep Black Pokémon,2.9,345.0,Teravolt,,,100,150,120,120,100,90,680,Gen 5
+645,Landorus,Ground,Flying,Abundance Pokémon,1.5,68.0,Force,,Sheer,89,125,90,115,80,101,600,Gen 5
+646,Kyurem,Dragon,Ice,Boundary Pokémon,3.0,325.0,Pressure,,,125,130,90,130,90,95,660,Gen 5
+647,Keldeo,Water,Fighting,Colt Pokémon,1.4,48.5,Justified,,,91,72,90,129,90,108,580,Gen 5
+648,Meloetta,Normal,Psychic,Melody Pokémon,0.6,6.5,Grace,,,100,77,77,128,128,90,600,Gen 5
+649,Genesect,Bug,Steel,Paleozoic Pokémon,1.5,82.5,Download,,,71,120,95,120,95,99,600,Gen 5
+650,Chespin,Grass,,Spiny Nut Pokémon,0.4,9.0,Overgrow,,Bulletproof,56,61,65,48,45,38,313,Gen 6
+651,Quilladin,Grass,,Spiny Armor Pokémon,0.7,29.0,Overgrow,,Bulletproof,61,78,95,56,58,57,405,Gen 6
+652,Chesnaught,Grass,Fighting,Spiny Armor Pokémon,1.6,90.0,Overgrow,,Bulletproof,88,107,122,74,75,64,530,Gen 6
+653,Fennekin,Fire,,Fox Pokémon,0.4,9.4,Blaze,,Magician,40,45,40,62,60,60,307,Gen 6
+654,Braixen,Fire,,Fox Pokémon,1.0,14.5,Blaze,,Magician,59,59,58,90,70,73,409,Gen 6
+655,Delphox,Fire,Psychic,Fox Pokémon,1.5,39.0,Blaze,,Magician,75,69,72,114,100,104,534,Gen 6
+656,Froakie,Water,,Bubble Frog Pokémon,0.3,7.0,Torrent,,Protean,41,56,40,62,44,71,314,Gen 6
+657,Frogadier,Water,,Bubble Frog Pokémon,0.6,10.9,Torrent,,Protean,54,63,52,83,56,97,405,Gen 6
+658,Greninja,Water,Dark,Ninja Pokémon,1.5,40.0,Torrent,,Protean,72,95,67,103,71,122,530,Gen 6
+659,Bunnelby,Normal,,Digging Pokémon,0.4,5.0,Pickup,Pouch,Huge,38,36,38,32,36,57,237,Gen 6
+660,Diggersby,Normal,Ground,Digging Pokémon,1.0,42.4,Pickup,Pouch,Huge,85,56,77,50,77,78,423,Gen 6
+661,Fletchling,Normal,Flying,Tiny Robin Pokémon,0.3,1.7,Pecks,,Gale,45,50,43,40,38,62,278,Gen 6
+662,Fletchinder,Fire,Flying,Ember Pokémon,0.7,16.0,Body,,Gale,62,73,55,56,52,84,382,Gen 6
+663,Talonflame,Fire,Flying,Scorching Pokémon,1.2,24.5,Body,,Gale,78,81,71,74,69,126,499,Gen 6
+664,Scatterbug,Bug,,Scatterdust Pokémon,0.3,2.5,Dust,Eyes,Friend,38,35,40,27,25,35,200,Gen 6
+665,Spewpa,Bug,,Scatterdust Pokémon,0.3,8.4,Skin,,Friend,45,22,60,27,30,29,213,Gen 6
+666,Vivillon,Bug,Flying,Scale Pokémon,1.2,17.0,Dust,Eyes,Friend,80,52,50,90,50,89,411,Gen 6
+667,Litleo,Fire,Normal,Lion Cub Pokémon,0.6,13.5,Rivalry,Unnerve,Moxie,62,50,58,73,54,72,369,Gen 6
+668,Pyroar,Fire,Normal,Royal Pokémon,1.5,81.5,Rivalry,Unnerve,Moxie,86,68,72,109,66,106,507,Gen 6
+669,Flabébé,Fairy,,Single Bloom Pokémon,0.1,0.1,Veil,,Symbiosis,44,38,39,61,79,42,303,Gen 6
+670,Floette,Fairy,,Single Bloom Pokémon,0.2,0.9,Veil,,Symbiosis,54,45,47,75,98,52,371,Gen 6
+671,Florges,Fairy,,Garden Pokémon,1.1,10.0,Veil,,Symbiosis,78,65,68,112,154,75,552,Gen 6
+672,Skiddo,Grass,,Mount Pokémon,0.9,31.0,Sipper,,Grass,66,65,48,62,57,52,350,Gen 6
+673,Gogoat,Grass,,Mount Pokémon,1.7,91.0,Sipper,,Grass,123,100,62,97,81,68,531,Gen 6
+674,Pancham,Fighting,,Playful Pokémon,0.6,8.0,Fist,Breaker,Scrappy,67,82,62,46,48,43,348,Gen 6
+675,Pangoro,Fighting,Dark,Daunting Pokémon,2.1,136.0,Fist,Breaker,Scrappy,95,124,78,69,71,58,495,Gen 6
+676,Furfrou,Normal,,Poodle Pokémon,1.2,28.0,Coat,,,75,80,60,65,90,102,472,Gen 6
+677,Espurr,Psychic,,Restraint Pokémon,0.3,3.5,Eye,Infiltrator,Own,62,48,54,63,60,68,355,Gen 6
+678,Meowstic,Psychic,,Constraint Pokémon,0.6,8.5,Eye,Infiltrator,Prankster,74,48,76,83,81,104,466,Gen 6
+679,Honedge,Steel,Ghost,Sword Pokémon,0.8,2.0,Guard,,,45,80,100,35,37,28,325,Gen 6
+680,Doublade,Steel,Ghost,Sword Pokémon,0.8,4.5,Guard,,,59,110,150,45,49,35,448,Gen 6
+681,Aegislash,Steel,Ghost,Royal Sword Pokémon,1.7,53.0,Change,,,60,50,140,50,140,60,500,Gen 6
+682,Spritzee,Fairy,,Perfume Pokémon,0.2,0.5,Healer,,Aroma,78,52,60,63,65,23,341,Gen 6
+683,Aromatisse,Fairy,,Fragrance Pokémon,0.8,15.5,Healer,,Aroma,101,72,72,99,89,29,462,Gen 6
+684,Swirlix,Fairy,,Cotton Candy Pokémon,0.4,3.5,Veil,,Unburden,62,48,66,59,57,49,341,Gen 6
+685,Slurpuff,Fairy,,Meringue Pokémon,0.8,5.0,Veil,,Unburden,82,80,86,85,75,72,480,Gen 6
+686,Inkay,Dark,Psychic,Revolving Pokémon,0.4,3.5,Contrary,Cups,Infiltrator,53,54,53,37,46,45,288,Gen 6
+687,Malamar,Dark,Psychic,Overturning Pokémon,1.5,47.0,Contrary,Cups,Infiltrator,86,92,88,68,75,73,482,Gen 6
+688,Binacle,Rock,Water,Two-Handed Pokémon,0.5,31.0,Sniper,Claws,Pickpocket,42,52,67,39,56,50,306,Gen 6
+689,Barbaracle,Rock,Water,Collective Pokémon,1.3,96.0,Sniper,Claws,Pickpocket,72,105,115,54,86,68,500,Gen 6
+690,Skrelp,Poison,Water,Mock Kelp Pokémon,0.5,7.3,Point,Touch,Adaptability,50,60,60,60,60,30,320,Gen 6
+691,Dragalge,Poison,Dragon,Mock Kelp Pokémon,1.8,81.5,Point,Touch,Adaptability,65,75,90,97,123,44,494,Gen 6
+692,Clauncher,Water,,Water Gun Pokémon,0.5,8.3,Launcher,,,50,53,62,58,63,44,330,Gen 6
+693,Clawitzer,Water,,Howitzer Pokémon,1.3,35.3,Launcher,,,71,73,88,120,89,59,500,Gen 6
+694,Helioptile,Electric,Normal,Generator Pokémon,0.5,6.0,Skin,Veil,Solar,44,38,33,61,43,70,289,Gen 6
+695,Heliolisk,Electric,Normal,Generator Pokémon,1.0,21.0,Skin,Veil,Solar,62,55,52,109,94,109,481,Gen 6
+696,Tyrunt,Rock,Dragon,Royal Heir Pokémon,0.8,26.0,Jaw,,Sturdy,58,89,77,45,45,48,362,Gen 6
+697,Tyrantrum,Rock,Dragon,Despot Pokémon,2.5,270.0,Jaw,,Rock,82,121,119,69,59,71,521,Gen 6
+698,Amaura,Rock,Ice,Tundra Pokémon,1.3,25.2,Refrigerate,,Snow,77,59,50,67,63,46,362,Gen 6
+699,Aurorus,Rock,Ice,Tundra Pokémon,2.7,225.0,Refrigerate,,Snow,123,77,72,99,92,58,521,Gen 6
+700,Sylveon,Fairy,,Intertwining Pokémon,1.0,23.5,Charm,,Pixilate,95,65,65,110,130,60,525,Gen 6
+701,Hawlucha,Fighting,Flying,Wrestling Pokémon,0.8,21.5,Limber,Unburden,Mold,78,92,75,74,63,118,500,Gen 6
+702,Dedenne,Electric,Fairy,Antenna Pokémon,0.2,2.2,Pouch,Pickup,Plus,67,58,57,81,67,101,431,Gen 6
+703,Carbink,Rock,Fairy,Jewel Pokémon,0.3,5.7,Body,,Sturdy,50,50,150,50,150,50,500,Gen 6
+704,Goomy,Dragon,,Soft Tissue Pokémon,0.3,2.8,Sipper,Hydration,Gooey,45,50,35,55,75,40,300,Gen 6
+705,Sliggoo,Dragon,,Soft Tissue Pokémon,0.8,17.5,Sipper,Hydration,Gooey,68,75,53,83,113,60,452,Gen 6
+706,Goodra,Dragon,,Dragon Pokémon,2.0,150.5,Sipper,Hydration,Gooey,90,100,70,110,150,80,600,Gen 6
+707,Klefki,Steel,Fairy,Key Ring Pokémon,0.2,3.0,Prankster,,Magician,57,80,91,80,87,75,470,Gen 6
+708,Phantump,Ghost,Grass,Stump Pokémon,0.4,7.0,Cure,Frisk,Harvest,43,70,48,50,60,38,309,Gen 6
+709,Trevenant,Ghost,Grass,Elder Tree Pokémon,1.5,71.0,Cure,Frisk,Harvest,85,110,76,65,82,56,474,Gen 6
+710,Pumpkaboo,Ghost,Grass,Pumpkin Pokémon,0.4,5.0,Pickup,Frisk,Insomnia,49,66,70,44,55,51,335,Gen 6
+711,Gourgeist,Ghost,Grass,Pumpkin Pokémon,0.9,12.5,Pickup,Frisk,Insomnia,65,90,122,58,75,84,494,Gen 6
+712,Bergmite,Ice,,Ice Chunk Pokémon,1.0,99.5,Tempo,Body,Sturdy,55,69,85,32,35,28,304,Gen 6
+713,Avalugg,Ice,,Iceberg Pokémon,2.0,505.0,Tempo,Body,Sturdy,95,117,184,44,46,28,514,Gen 6
+714,Noibat,Flying,Dragon,Sound Wave Pokémon,0.5,8.0,Frisk,Infiltrator,Telepathy,40,30,35,45,40,55,245,Gen 6
+715,Noivern,Flying,Dragon,Sound Wave Pokémon,1.5,85.0,Frisk,Infiltrator,Telepathy,85,70,80,97,80,123,535,Gen 6
+716,Xerneas,Fairy,,Life Pokémon,3.0,215.0,Aura,,,126,131,95,131,98,99,680,Gen 6
+717,Yveltal,Dark,Flying,Destruction Pokémon,5.8,203.0,Aura,,,126,131,95,131,98,99,680,Gen 6
+718,Zygarde,Dragon,Ground,Order Pokémon,5.0,305.0,Break,,2.,108,100,121,81,95,95,600,Gen 6
+719,Diancie,Rock,Fairy,Jewel Pokémon,0.7,8.8,Body,,,50,100,150,100,150,50,600,Gen 6
+720,Hoopa,Psychic,Ghost,Mischief Pokémon,0.5,9.0,Magician,,,80,110,60,150,130,70,600,Gen 6
+721,Volcanion,Fire,Water,Steam Pokémon,1.7,195.0,Absorb,,,80,110,120,130,90,70,600,Gen 6
+722,Rowlet,Grass,Flying,Grass Quill Pokémon,0.3,1.5,Overgrow,,Long,68,55,55,50,50,42,320,Gen 7
+723,Dartrix,Grass,Flying,Blade Quill Pokémon,0.7,16.0,Overgrow,,Long,78,75,75,70,70,52,420,Gen 7
+724,Decidueye,Grass,Ghost,Arrow Quill Pokémon,1.6,36.6,Overgrow,,Long,78,107,75,100,100,70,530,Gen 7
+725,Litten,Fire,,Fire Cat Pokémon,0.4,4.3,Blaze,,Intimidate,45,65,40,60,40,70,320,Gen 7
+726,Torracat,Fire,,Fire Cat Pokémon,0.7,25.0,Blaze,,Intimidate,65,85,50,80,50,90,420,Gen 7
+727,Incineroar,Fire,Dark,Heel Pokémon,1.8,83.0,Blaze,,Intimidate,95,115,90,80,90,60,530,Gen 7
+728,Popplio,Water,,Sea Lion Pokémon,0.4,7.5,Torrent,,Liquid,50,54,54,66,56,40,320,Gen 7
+729,Brionne,Water,,Pop Star Pokémon,0.6,17.5,Torrent,,Liquid,60,69,69,91,81,50,420,Gen 7
+730,Primarina,Water,Fairy,Soloist Pokémon,1.8,44.0,Torrent,,Liquid,80,74,74,126,116,60,530,Gen 7
+731,Pikipek,Normal,Flying,Woodpecker Pokémon,0.3,1.2,Eye,Link,Pickup,35,75,30,30,30,65,265,Gen 7
+732,Trumbeak,Normal,Flying,Bugle Beak Pokémon,0.6,14.8,Eye,Link,Pickup,55,85,50,40,50,75,355,Gen 7
+733,Toucannon,Normal,Flying,Cannon Pokémon,1.1,26.0,Eye,Link,Sheer,80,120,75,75,75,60,485,Gen 7
+734,Yungoos,Normal,,Loitering Pokémon,0.4,6.0,Jaw,Stakeout,Adaptability,48,70,30,30,30,45,253,Gen 7
+735,Gumshoos,Normal,,Stakeout Pokémon,0.7,14.2,Jaw,Stakeout,Adaptability,88,110,60,55,60,45,418,Gen 7
+736,Grubbin,Bug,,Larva Pokémon,0.4,4.4,Swarm,,,47,62,45,55,45,46,300,Gen 7
+737,Charjabug,Bug,Electric,Battery Pokémon,0.5,10.5,Battery,,,57,82,95,55,75,36,400,Gen 7
+738,Vikavolt,Bug,Electric,Stag Beetle Pokémon,1.5,45.0,Levitate,,,77,70,90,145,75,43,500,Gen 7
+739,Crabrawler,Fighting,,Boxing Pokémon,0.6,7.0,Cutter,Fist,Anger,47,82,57,42,47,63,338,Gen 7
+740,Crabominable,Fighting,Ice,Woolly Crab Pokémon,1.7,180.0,Cutter,Fist,Anger,97,132,77,62,67,43,478,Gen 7
+741,Oricorio,Fire,Flying,Dancing Pokémon,0.6,3.4,Dancer,,,75,70,70,98,70,93,476,Gen 7
+742,Cutiefly,Bug,Fairy,Bee Fly Pokémon,0.1,0.2,Gather,Dust,Sweet,40,45,40,55,40,84,304,Gen 7
+743,Ribombee,Bug,Fairy,Bee Fly Pokémon,0.2,0.5,Gather,Dust,Sweet,60,55,60,95,70,124,464,Gen 7
+744,Rockruff,Rock,,Puppy Pokémon,0.5,9.2,Eye,Spirit,Steadfast,45,65,40,30,40,60,280,Gen 7
+745,Lycanroc,Rock,,Wolf Pokémon,0.8,25.0,Eye,Rush,Steadfast,75,115,65,55,65,112,487,Gen 7
+746,Wishiwashi,Water,,Small Fry Pokémon,0.2,0.3,Schooling,,,45,20,20,25,25,40,175,Gen 7
+747,Mareanie,Poison,Water,Brutal Star Pokémon,0.4,8.0,Merciless,Limber,Regenerator,50,53,62,43,52,45,305,Gen 7
+748,Toxapex,Poison,Water,Brutal Star Pokémon,0.7,14.5,Merciless,Limber,Regenerator,50,63,152,53,142,35,495,Gen 7
+749,Mudbray,Ground,,Donkey Pokémon,1.0,110.0,Tempo,Stamina,Inner,70,100,70,45,55,45,385,Gen 7
+750,Mudsdale,Ground,,Draft Horse Pokémon,2.5,920.0,Tempo,Stamina,Inner,100,125,100,55,85,35,500,Gen 7
+751,Dewpider,Water,Bug,Water Bubble Pokémon,0.3,4.0,Bubble,,Water,38,40,52,40,72,27,269,Gen 7
+752,Araquanid,Water,Bug,Water Bubble Pokémon,1.8,82.0,Bubble,,Water,68,70,92,50,132,42,454,Gen 7
+753,Fomantis,Grass,,Sickle Grass Pokémon,0.3,1.5,Guard,,Contrary,40,55,35,50,35,35,250,Gen 7
+754,Lurantis,Grass,,Bloom Sickle Pokémon,0.9,18.5,Guard,,Contrary,70,105,90,80,90,45,480,Gen 7
+755,Morelull,Grass,Fairy,Illuminating Pokémon,0.2,1.5,Illuminate,Spore,Rain,40,35,55,65,75,15,285,Gen 7
+756,Shiinotic,Grass,Fairy,Illuminating Pokémon,1.0,11.5,Illuminate,Spore,Rain,60,45,80,90,100,30,405,Gen 7
+757,Salandit,Poison,Fire,Toxic Lizard Pokémon,0.6,4.8,Corrosion,,Oblivious,48,44,40,71,40,77,320,Gen 7
+758,Salazzle,Poison,Fire,Toxic Lizard Pokémon,1.2,22.2,Corrosion,,Oblivious,68,64,60,111,60,117,480,Gen 7
+759,Stufful,Normal,Fighting,Flailing Pokémon,0.5,6.8,Fluffy,Klutz,Cute,70,75,50,45,50,50,340,Gen 7
+760,Bewear,Normal,Fighting,Strong Arm Pokémon,2.1,135.0,Fluffy,Klutz,Unnerve,120,125,80,55,60,60,500,Gen 7
+761,Bounsweet,Grass,,Fruit Pokémon,0.3,3.2,Guard,Oblivious,Sweet,42,30,38,30,38,32,210,Gen 7
+762,Steenee,Grass,,Fruit Pokémon,0.7,8.2,Guard,Oblivious,Sweet,52,40,48,40,48,62,290,Gen 7
+763,Tsareena,Grass,,Fruit Pokémon,1.2,21.4,Guard,Majesty,Sweet,72,120,98,50,98,72,510,Gen 7
+764,Comfey,Fairy,,Posy Picker Pokémon,0.1,0.3,Veil,Triage,Natural,51,52,90,82,110,100,485,Gen 7
+765,Oranguru,Normal,Psychic,Sage Pokémon,1.5,76.0,Focus,Telepathy,Symbiosis,90,60,80,90,110,60,490,Gen 7
+766,Passimian,Fighting,,Teamwork Pokémon,2.0,82.8,Receiver,,Defiant,100,120,90,40,60,80,490,Gen 7
+767,Wimpod,Bug,Water,Turn Tail Pokémon,0.5,12.0,Out,,,25,35,40,20,30,80,230,Gen 7
+768,Golisopod,Bug,Water,Hard Scale Pokémon,2.0,108.0,Exit,,,75,125,140,60,90,40,530,Gen 7
+769,Sandygast,Ghost,Ground,Sand Heap Pokémon,0.5,70.0,Compaction,,Sand,55,55,80,70,45,15,320,Gen 7
+770,Palossand,Ghost,Ground,Sand Castle Pokémon,1.3,250.0,Compaction,,Sand,85,75,110,100,75,35,480,Gen 7
+771,Pyukumuku,Water,,Sea Cucumber Pokémon,0.3,1.2,Out,,Unaware,55,60,130,30,130,5,410,Gen 7
+772,Type: Null,Normal,,Synthetic Pokémon,1.9,120.5,Armor,,,95,95,95,95,95,59,534,Gen 7
+773,Silvally,Normal,,Synthetic Pokémon,2.3,100.5,System,,,95,95,95,95,95,95,570,Gen 7
+774,Minior,Rock,Flying,Meteor Pokémon,0.3,40.0,Down,,,60,60,100,60,100,60,440,Gen 7
+775,Komala,Normal,,Drowsing Pokémon,0.4,19.9,Comatose,,,65,115,65,75,95,65,480,Gen 7
+776,Turtonator,Fire,Dragon,Blast Turtle Pokémon,2.0,212.0,Armor,,,60,78,135,91,85,36,485,Gen 7
+777,Togedemaru,Electric,Steel,Roly-Poly Pokémon,0.3,3.3,Barbs,Rod,Sturdy,65,98,63,40,73,96,435,Gen 7
+778,Mimikyu,Ghost,Fairy,Disguise Pokémon,0.2,0.7,Disguise,,,55,90,80,50,105,96,476,Gen 7
+779,Bruxish,Water,Psychic,Gnash Teeth Pokémon,0.9,19.0,Dazzling,Jaw,Wonder,68,105,70,70,70,92,475,Gen 7
+780,Drampa,Normal,Dragon,Placid Pokémon,3.0,185.0,Berserk,Sipper,Cloud,78,60,85,135,91,36,485,Gen 7
+781,Dhelmise,Ghost,Grass,Sea Creeper Pokémon,3.9,210.0,Steelworker,,,70,131,100,86,90,40,517,Gen 7
+782,Jangmo-O,Dragon,,Scaly Pokémon,0.6,29.7,Bulletproof,Soundproof,Overcoat,45,55,65,45,45,45,300,Gen 7
+783,Hakamo-O,Dragon,Fighting,Scaly Pokémon,1.2,47.0,Bulletproof,Soundproof,Overcoat,55,75,90,65,70,65,420,Gen 7
+784,Kommo-O,Dragon,Fighting,Scaly Pokémon,1.6,78.2,Bulletproof,Soundproof,Overcoat,75,110,125,100,105,85,600,Gen 7
+785,Tapu Koko,Electric,Fairy,Land Spirit Pokémon,1.8,20.5,Surge,,Telepathy,70,115,85,95,75,130,570,Gen 7
+786,Tapu Lele,Psychic,Fairy,Land Spirit Pokémon,1.2,18.6,Surge,,Telepathy,70,85,75,130,115,95,570,Gen 7
+787,Tapu Bulu,Grass,Fairy,Land Spirit Pokémon,1.9,45.5,Surge,,Telepathy,70,130,115,85,95,75,570,Gen 7
+788,Tapu Fini,Water,Fairy,Land Spirit Pokémon,1.3,21.2,Surge,,Telepathy,70,75,115,95,130,85,570,Gen 7
+789,Cosmog,Psychic,,Nebula Pokémon,0.2,0.1,Unaware,,,43,29,31,29,31,37,200,Gen 7
+790,Cosmoem,Psychic,,Protostar Pokémon,0.1,999.9,Sturdy,,,43,29,131,29,131,37,400,Gen 7
+791,Solgaleo,Psychic,Steel,Sunne Pokémon,3.4,230.0,Body,,,137,137,107,113,89,97,680,Gen 7
+792,Lunala,Psychic,Ghost,Moone Pokémon,4.0,120.0,Shield,,,137,113,89,137,107,97,680,Gen 7
+793,Nihilego,Rock,Poison,Parasite Pokémon,1.2,55.5,Boost,,,109,53,47,127,131,103,570,Gen 7
+794,Buzzwole,Bug,Fighting,Swollen Pokémon,2.4,333.6,Boost,,,107,139,139,53,53,79,570,Gen 7
+795,Pheromosa,Bug,Fighting,Lissome Pokémon,1.8,25.0,Boost,,,71,137,37,137,37,151,570,Gen 7
+796,Xurkitree,Electric,,Glowing Pokémon,3.8,100.0,Boost,,,83,89,71,173,71,83,570,Gen 7
+797,Celesteela,Steel,Flying,Launch Pokémon,9.2,999.9,Boost,,,97,101,103,107,101,61,570,Gen 7
+798,Kartana,Grass,Steel,Drawn Sword Pokémon,0.3,0.1,Boost,,,59,181,131,59,31,109,570,Gen 7
+799,Guzzlord,Dark,Dragon,Junkivore Pokémon,5.5,888.0,Boost,,,223,101,53,97,53,43,570,Gen 7
+800,Necrozma,Psychic,,Prism Pokémon,2.4,230.0,Armor,,,97,107,101,127,89,79,600,Gen 7
+801,Magearna,Steel,Fairy,Artificial Pokémon,1.0,80.5,Soul-Heart,,,80,95,115,130,115,65,600,Gen 7
+802,Marshadow,Fighting,Ghost,Gloomdweller Pokémon,0.7,22.2,Technician,,,90,125,80,90,90,125,600,Gen 7
+803,Poipole,Poison,,Poison Pin Pokémon,0.6,1.8,Boost,,,67,73,67,73,67,73,420,Gen 7
+804,Naganadel,Poison,Dragon,Poison Pin Pokémon,3.6,150.0,Boost,,,73,73,73,127,73,121,540,Gen 7
+805,Stakataka,Rock,Steel,Rampart Pokémon,5.5,820.0,Boost,,,61,131,211,53,101,13,570,Gen 7
+806,Blacephalon,Fire,Ghost,Fireworks Pokémon,1.8,13.0,Boost,,,53,127,53,151,79,107,570,Gen 7
+807,Zeraora,Electric,,Thunderclap Pokémon,1.5,44.5,Absorb,,,88,112,75,102,80,143,600,Gen 7
+808,Meltan,Steel,,Hex Nut Pokémon,0.2,8.0,Pull,,,46,65,65,55,35,34,300,Gen 7
+809,Melmetal,Steel,,Hex Nut Pokémon,2.5,800.0,Fist,,,135,143,143,80,65,34,600,Gen 7
+810,Grookey,Grass,,Chimp Pokémon,0.3,5.0,Overgrow,,Grassy,50,65,50,40,40,65,310,Gen 8
+811,Thwackey,Grass,,Beat Pokémon,0.7,14.0,Overgrow,,Grassy,70,85,70,55,60,80,420,Gen 8
+812,Rillaboom,Grass,,Drummer Pokémon,2.1,90.0,Overgrow,,Grassy,100,125,90,60,70,85,530,Gen 8
+813,Scorbunny,Fire,,Rabbit Pokémon,0.3,4.5,Blaze,,Libero,50,71,40,40,40,69,310,Gen 8
+814,Raboot,Fire,,Rabbit Pokémon,0.6,9.0,Blaze,,Libero,65,86,60,55,60,94,420,Gen 8
+815,Cinderace,Fire,,Striker Pokémon,1.4,33.0,Blaze,,Libero,80,116,75,65,75,119,530,Gen 8
+816,Sobble,Water,,Water Lizard Pokémon,0.3,4.0,Torrent,,Sniper,50,40,40,70,40,70,310,Gen 8
+817,Drizzile,Water,,Water Lizard Pokémon,0.7,11.5,Torrent,,Sniper,65,60,55,95,55,90,420,Gen 8
+818,Inteleon,Water,,Secret Agent Pokémon,1.9,45.2,Torrent,,Sniper,70,85,65,125,65,120,530,Gen 8
+819,Skwovet,Normal,,Cheeky Pokémon,0.3,2.5,Pouch,,Gluttony,70,55,55,35,35,25,275,Gen 8
+820,Greedent,Normal,,Greedy Pokémon,0.6,6.0,Pouch,,Gluttony,120,95,95,55,75,20,460,Gen 8
+821,Rookidee,Flying,,Tiny Bird Pokémon,0.2,1.8,Eye,Unnerve,Big,38,47,35,33,35,57,245,Gen 8
+822,Corvisquire,Flying,,Raven Pokémon,0.8,16.0,Eye,Unnerve,Big,68,67,55,43,55,77,365,Gen 8
+823,Corviknight,Flying,Steel,Raven Pokémon,2.2,75.0,Pressure,Unnerve,Mirror,98,87,105,53,85,67,495,Gen 8
+824,Blipbug,Bug,,Larva Pokémon,0.4,8.0,Swarm,Eyes,Telepathy,25,20,20,25,45,45,180,Gen 8
+825,Dottler,Bug,Psychic,Radome Pokémon,0.4,19.5,Swarm,Eyes,Telepathy,50,35,80,50,90,30,335,Gen 8
+826,Orbeetle,Bug,Psychic,Seven Spot Pokémon,0.4,40.8,Swarm,Frisk,Telepathy,60,45,110,80,120,90,505,Gen 8
+827,Nickit,Dark,,Fox Pokémon,0.6,8.9,Away,Unburden,Stakeout,40,28,28,47,52,50,245,Gen 8
+828,Thievul,Dark,,Fox Pokémon,1.2,19.9,Away,Unburden,Stakeout,70,58,58,87,92,90,455,Gen 8
+829,Gossifleur,Grass,,Flowering Pokémon,0.4,2.2,Down,Regenerator,Effect,40,40,60,40,60,10,250,Gen 8
+830,Eldegoss,Grass,,Cotton Bloom Pokémon,0.5,2.5,Down,Regenerator,Effect,60,50,90,80,120,60,460,Gen 8
+831,Wooloo,Normal,,Sheep Pokémon,0.6,6.0,Fluffy,Away,Bulletproof,42,40,55,40,45,48,270,Gen 8
+832,Dubwool,Normal,,Sheep Pokémon,1.3,43.0,Fluffy,Steadfast,Bulletproof,72,80,100,60,90,88,490,Gen 8
+833,Chewtle,Water,,Snapping Pokémon,0.3,8.5,Jaw,Armor,Swift,50,64,50,38,38,44,284,Gen 8
+834,Drednaw,Water,Rock,Bite Pokémon,1.0,115.5,Jaw,Armor,Swift,90,115,90,48,68,74,485,Gen 8
+835,Yamper,Electric,,Puppy Pokémon,0.3,13.5,Fetch,,Rattled,59,45,50,40,50,26,270,Gen 8
+836,Boltund,Electric,,Dog Pokémon,1.0,34.0,Jaw,,Competitive,69,90,60,90,60,121,490,Gen 8
+837,Rolycoly,Rock,,Coal Pokémon,0.3,12.0,Engine,Heatproof,Flash,30,40,50,40,50,30,240,Gen 8
+838,Carkol,Rock,Fire,Coal Pokémon,1.1,78.0,Engine,Body,Flash,80,60,90,60,70,50,410,Gen 8
+839,Coalossal,Rock,Fire,Coal Pokémon,2.8,310.5,Engine,Body,Flash,110,80,120,80,90,30,510,Gen 8
+840,Applin,Grass,Dragon,Apple Core Pokémon,0.2,0.5,Ripen,Gluttony,Bulletproof,40,40,80,40,40,20,260,Gen 8
+841,Flapple,Grass,Dragon,Apple Wing Pokémon,0.3,1.0,Ripen,Gluttony,Hustle,70,110,80,95,60,70,485,Gen 8
+842,Appletun,Grass,Dragon,Apple Nectar Pokémon,0.4,13.0,Ripen,Gluttony,Thick,110,85,80,100,80,30,485,Gen 8
+843,Silicobra,Ground,,Sand Snake Pokémon,2.2,7.6,Spit,Skin,Sand,52,57,75,35,50,46,315,Gen 8
+844,Sandaconda,Ground,,Sand Snake Pokémon,3.8,65.5,Spit,Skin,Sand,72,107,125,65,70,71,510,Gen 8
+845,Cramorant,Flying,Water,Gulp Pokémon,0.8,18.0,Missile,,,70,85,55,85,95,85,475,Gen 8
+846,Arrokuda,Water,,Rush Pokémon,0.5,1.0,Swim,,Propeller,41,63,40,40,30,66,280,Gen 8
+847,Barraskewda,Water,,Skewer Pokémon,1.3,30.0,Swim,,Propeller,61,123,60,60,50,136,490,Gen 8
+848,Toxel,Electric,Poison,Baby Pokémon,0.4,11.0,Rattled,Static,Klutz,40,38,35,54,35,40,242,Gen 8
+849,Toxtricity,Electric,Poison,Punk Pokémon,1.6,40.0,Rock,Plus,Technician,75,98,70,114,70,75,502,Gen 8
+850,Sizzlipede,Fire,Bug,Radiator Pokémon,0.7,1.0,Fire,Smoke,Flame,50,65,45,50,50,45,305,Gen 8
+851,Centiskorch,Fire,Bug,Radiator Pokémon,3.0,120.0,Fire,Smoke,Flame,100,115,65,90,90,65,525,Gen 8
+852,Clobbopus,Fighting,,Tantrum Pokémon,0.6,4.0,Limber,,Technician,50,68,60,50,50,32,310,Gen 8
+853,Grapploct,Fighting,,Tantrum Pokémon,1.6,39.0,Limber,,Technician,80,118,90,70,80,42,480,Gen 8
+854,Sinistea,Ghost,,Black Tea Pokémon,0.1,0.2,Armor,,Cursed,40,45,45,74,54,50,308,Gen 8
+855,Polteageist,Ghost,,Black Tea Pokémon,0.2,0.4,Armor,,Cursed,60,65,65,134,114,70,508,Gen 8
+856,Hatenna,Psychic,,Calm Pokémon,0.4,3.4,Healer,Anticipation,Magic,42,30,45,56,53,39,265,Gen 8
+857,Hattrem,Psychic,,Serene Pokémon,0.6,4.8,Healer,Anticipation,Magic,57,40,65,86,73,49,370,Gen 8
+858,Hatterene,Psychic,Fairy,Silent Pokémon,2.1,5.1,Healer,Anticipation,Magic,57,90,95,136,103,29,510,Gen 8
+859,Impidimp,Dark,Fairy,Wily Pokémon,0.4,5.5,Prankster,Frisk,Pickpocket,45,45,30,55,40,50,265,Gen 8
+860,Morgrem,Dark,Fairy,Devious Pokémon,0.8,12.5,Prankster,Frisk,Pickpocket,65,60,45,75,55,70,370,Gen 8
+861,Grimmsnarl,Dark,Fairy,Bulk Up Pokémon,1.5,61.0,Prankster,Frisk,Pickpocket,95,120,65,95,75,60,510,Gen 8
+862,Obstagoon,Dark,Normal,Blocking Pokémon,1.6,46.0,Reckless,Guts,Defiant,93,90,101,60,81,95,520,Gen 8
+863,Perrserker,Steel,,Viking Pokémon,0.8,28.0,Armor,Claws,Steely,70,110,100,50,60,50,440,Gen 8
+864,Cursola,Ghost,,Coral Pokémon,1.0,0.4,Armor,,Perish,60,95,50,145,130,30,510,Gen 8
+865,Sirfetch'D,Fighting,,Wild Duck Pokémon,0.8,117.0,Steadfast,,Scrappy,62,135,95,68,82,65,507,Gen 8
+866,Mr. Rime,Ice,Psychic,Comedian Pokémon,1.5,58.2,Feet,Cleaner,Ice,80,85,75,110,100,70,520,Gen 8
+867,Runerigus,Ground,Ghost,Grudge Pokémon,1.6,66.6,Spirit,,,58,95,145,50,105,30,483,Gen 8
+868,Milcery,Fairy,,Cream Pokémon,0.2,0.3,Veil,,Aroma,45,40,40,50,61,34,270,Gen 8
+869,Alcremie,Fairy,,Cream Pokémon,0.3,0.5,Veil,,Aroma,65,60,75,110,121,64,495,Gen 8
+870,Falinks,Fighting,,Formation Pokémon,3.0,62.0,Armor,,Defiant,65,100,100,70,60,75,470,Gen 8
+871,Pincurchin,Electric,,Sea Urchin Pokémon,0.3,1.0,Rod,,Electric,48,101,95,91,85,15,435,Gen 8
+872,Snom,Ice,Bug,Worm Pokémon,0.3,3.8,Dust,,Ice,30,25,35,45,30,20,185,Gen 8
+873,Frosmoth,Ice,Bug,Frost Moth Pokémon,1.3,42.0,Dust,,Ice,70,65,60,125,90,65,475,Gen 8
+874,Stonjourner,Rock,,Big Rock Pokémon,2.5,520.0,Spot,,,100,125,135,20,20,70,470,Gen 8
+875,Eiscue,Ice,,Penguin Pokémon,1.4,89.0,Face,,,75,80,110,65,90,50,470,Gen 8
+876,Indeedee,Psychic,Normal,Emotion Pokémon,0.9,28.0,Focus,Synchronize,Psychic,60,65,55,105,95,95,475,Gen 8
+877,Morpeko,Electric,Dark,Two-Sided Pokémon,0.3,3.0,Switch,,,58,95,58,70,58,97,436,Gen 8
+878,Cufant,Steel,,Copperderm Pokémon,1.2,100.0,Force,,Heavy,72,80,49,40,49,40,330,Gen 8
+879,Copperajah,Steel,,Copperderm Pokémon,3.0,650.0,Force,,Heavy,122,130,69,80,69,30,500,Gen 8
+880,Dracozolt,Electric,Dragon,Fossil Pokémon,1.8,190.0,Absorb,Hustle,Sand,90,100,90,80,70,75,505,Gen 8
+881,Arctozolt,Electric,Ice,Fossil Pokémon,2.3,150.0,Absorb,Static,Slush,90,100,90,90,80,55,505,Gen 8
+882,Dracovish,Water,Dragon,Fossil Pokémon,2.3,215.0,Absorb,Jaw,Sand,90,90,100,70,80,75,505,Gen 8
+883,Arctovish,Water,Ice,Fossil Pokémon,2.0,175.0,Absorb,Body,Slush,90,90,100,80,90,55,505,Gen 8
+884,Duraludon,Steel,Dragon,Alloy Pokémon,1.8,40.0,Metal,Metal,Stalwart,70,95,115,120,50,85,535,Gen 8
+885,Dreepy,Dragon,Ghost,Lingering Pokémon,0.5,2.0,Body,Infiltrator,Cursed,28,60,30,40,30,82,270,Gen 8
+886,Drakloak,Dragon,Ghost,Caretaker Pokémon,1.4,11.0,Body,Infiltrator,Cursed,68,80,50,60,50,102,410,Gen 8
+887,Dragapult,Dragon,Ghost,Stealth Pokémon,3.0,50.0,Body,Infiltrator,Cursed,88,120,75,100,75,142,600,Gen 8
+888,Zacian,Fairy,,Warrior Pokémon,2.8,110.0,Sword,,,92,120,115,80,115,138,660,Gen 8
+889,Zamazenta,Fighting,,Warrior Pokémon,2.9,210.0,Shield,,,92,120,115,80,115,138,660,Gen 8
+890,Eternatus,Poison,Dragon,Gigantic Pokémon,20.0,950.0,Pressure,,,140,85,95,145,95,130,690,Gen 8
+891,Kubfu,Fighting,,Wushu Pokémon,0.6,12.0,Focus,,,60,90,60,53,50,72,385,Gen 8
+892,Urshifu,Fighting,Dark,Wushu Pokémon,1.9,105.0,Fist,,,100,130,100,63,60,97,550,Gen 8
+893,Zarude,Dark,Grass,Rogue Monkey Pokémon,1.8,70.0,Guard,,,105,120,105,70,95,105,600,Gen 8
+894,Regieleki,Electric,,Electron Pokémon,1.2,145.0,Transistor,,,80,100,50,100,50,200,580,Gen 8
+895,Regidrago,Dragon,,Dragon Orb Pokémon,2.1,200.0,Maw,,,200,100,50,100,50,80,580,Gen 8
+896,Glastrier,Ice,,Wild Horse Pokémon,2.2,800.0,Neigh,,,100,145,130,65,110,30,580,Gen 8
+897,Spectrier,Ghost,,Swift Horse Pokémon,2.0,44.5,Neigh,,,100,65,60,145,80,130,580,Gen 8
+898,Calyrex,Psychic,Grass,King Pokémon,1.1,7.7,Unnerve,,,100,80,80,80,80,80,500,Gen 8
+899,Wyrdeer,Normal,Psychic,Big Horn Pokémon,1.8,95.1,Intimidate,Frisk,Sap,103,105,72,105,75,65,525,Gen 8
+900,Kleavor,Bug,Rock,Axe Pokémon,1.8,89.0,Swarm,Force,Sharpness,70,130,95,45,75,85,500,Gen 8
+901,Ursaluna,Ground,Normal,Peat Pokémon,2.4,290.0,Guts,Bulletproof,Unnerve,130,140,105,45,80,50,550,Gen 8
+902,Basculegion,Water,Ghost,Big Fish Pokémon,3.0,110.0,Swim,Adaptability,Mold,120,112,65,80,75,78,530,Gen 8
+903,Sneasler,Fighting,Poison,Free Climb Pokémon,1.3,43.0,Pressure,Unburden,Poison,80,130,60,40,80,120,510,Gen 8
+904,Overqwil,Dark,Poison,Pin Cluster Pokémon,2.5,60.5,Point,Swim,Intimidate,85,115,95,65,65,85,510,Gen 8
+905,Enamorus,Fairy,Flying,Love-Hate Pokémon,1.6,48.0,Charm,,Contrary,74,115,70,135,80,106,580,Gen 8
+906,Sprigatito,Grass,,Grass Cat Pokémon,0.4,4.1,Overgrow,,Protean,40,61,54,45,45,65,310,Gen 9
+907,Floragato,Grass,,Grass Cat Pokémon,0.9,12.2,Overgrow,,Protean,61,80,63,60,63,83,410,Gen 9
+908,Meowscarada,Grass,Dark,Magician Pokémon,1.5,31.2,Overgrow,,Protean,76,110,70,81,70,123,530,Gen 9
+909,Fuecoco,Fire,,Fire Croc Pokémon,0.4,9.8,Blaze,,Unaware,67,45,59,63,40,36,310,Gen 9
+910,Crocalor,Fire,,Fire Croc Pokémon,1.0,30.7,Blaze,,Unaware,81,55,78,90,58,49,411,Gen 9
+911,Skeledirge,Fire,Ghost,Singer Pokémon,1.6,326.5,Blaze,,Unaware,104,75,100,110,75,66,530,Gen 9
+912,Quaxly,Water,,Duckling Pokémon,0.5,6.1,Torrent,,Moxie,55,65,45,50,45,50,310,Gen 9
+913,Quaxwell,Water,,Practicing Pokémon,1.2,21.5,Torrent,,Moxie,70,85,65,65,60,65,410,Gen 9
+914,Quaquaval,Water,Fighting,Dancer Pokémon,1.8,61.9,Torrent,,Moxie,85,120,80,85,75,85,530,Gen 9
+915,Lechonk,Normal,,Hog Pokémon,0.5,10.2,Veil,Gluttony,Thick,54,45,40,35,45,35,254,Gen 9
+916,Oinkologne,Normal,,Hog Pokémon,1.0,120.0,Aroma,Gluttony,Thick,110,100,75,59,80,65,489,Gen 9
+917,Tarountula,Bug,,String Ball Pokémon,0.3,4.0,Insomnia,,Stakeout,35,41,45,29,40,20,210,Gen 9
+918,Spidops,Bug,,Trap Pokémon,1.0,16.5,Insomnia,,Stakeout,60,79,92,52,86,35,404,Gen 9
+919,Nymble,Bug,,Grasshopper Pokémon,0.2,1.0,Swarm,,Tinted,33,46,40,21,25,45,210,Gen 9
+920,Lokix,Bug,Dark,Grasshopper Pokémon,1.0,17.5,Swarm,,Tinted,71,102,78,52,55,92,450,Gen 9
+921,Pawmi,Electric,,Mouse Pokémon,0.3,2.5,Static,Cure,Iron,45,50,20,40,25,60,240,Gen 9
+922,Pawmo,Electric,Fighting,Mouse Pokémon,0.4,6.5,Absorb,Cure,Iron,60,75,40,50,40,85,350,Gen 9
+923,Pawmot,Electric,Fighting,Hands-On Pokémon,0.9,41.0,Absorb,Cure,Iron,70,115,70,70,60,105,490,Gen 9
+924,Tandemaus,Normal,,Couple Pokémon,0.3,1.8,Away,Pickup,Own,50,50,45,40,45,75,305,Gen 9
+925,Maushold,Normal,,Family Pokémon,0.3,2.8,Guard,Pouch,Technician,74,75,70,65,75,111,470,Gen 9
+926,Fidough,Fairy,,Puppy Pokémon,0.3,10.9,Tempo,,Klutz,37,55,70,30,55,65,312,Gen 9
+927,Dachsbun,Fairy,,Dog Pokémon,0.5,14.9,Body,,Aroma,57,80,115,50,80,95,477,Gen 9
+928,Smoliv,Grass,Normal,Olive Pokémon,0.3,6.5,Bird,,Harvest,41,35,45,58,51,30,260,Gen 9
+929,Dolliv,Grass,Normal,Olive Pokémon,0.6,11.9,Bird,,Harvest,52,53,60,78,78,33,354,Gen 9
+930,Arboliva,Grass,Normal,Olive Pokémon,1.4,48.2,Sower,,Harvest,78,69,90,125,109,39,510,Gen 9
+931,Squawkabilly,Normal,Flying,Parrot Pokémon,0.6,2.4,Intimidate,Hustle,Guts,82,96,51,45,51,92,417,Gen 9
+932,Nacli,Rock,,Rock Salt Pokémon,0.4,16.0,Salt,Sturdy,Clear,55,55,75,35,35,25,280,Gen 9
+933,Naclstack,Rock,,Rock Salt Pokémon,0.6,105.0,Salt,Sturdy,Clear,60,60,100,35,65,35,355,Gen 9
+934,Garganacl,Rock,,Rock Salt Pokémon,2.3,240.0,Salt,Sturdy,Clear,100,100,130,45,90,35,500,Gen 9
+935,Charcadet,Fire,,Fire Child Pokémon,0.6,10.5,Fire,,Flame,40,50,40,50,40,35,255,Gen 9
+936,Armarouge,Fire,Psychic,Fire Warrior Pokémon,1.5,85.0,Fire,,Weak,85,60,100,125,80,75,525,Gen 9
+937,Ceruledge,Fire,Ghost,Fire Blades Pokémon,1.6,62.0,Fire,,Weak,75,125,80,60,100,85,525,Gen 9
+938,Tadbulb,Electric,,Eletadpole Pokémon,0.3,0.4,Tempo,Static,Damp,61,31,41,59,35,45,272,Gen 9
+939,Bellibolt,Electric,,Elefrog Pokémon,1.2,113.0,Electromorphosis,Static,Damp,109,64,91,103,83,45,495,Gen 9
+940,Wattrel,Electric,Flying,Storm Petrel Pokémon,0.4,3.6,Power,Absorb,Competitive,40,40,35,55,40,70,280,Gen 9
+941,Kilowattrel,Electric,Flying,Frigatebird Pokémon,1.4,38.6,Power,Absorb,Competitive,70,70,60,105,60,125,490,Gen 9
+942,Maschiff,Dark,,Rascal Pokémon,0.5,16.0,Intimidate,Away,Stakeout,60,78,60,40,51,51,340,Gen 9
+943,Mabosstiff,Dark,,Boss Pokémon,1.1,61.0,Intimidate,Dog,Stakeout,80,120,90,60,70,85,505,Gen 9
+944,Shroodle,Poison,Normal,Toxic Mouse Pokémon,0.2,0.7,Unburden,Pickpocket,Prankster,40,65,35,40,35,75,290,Gen 9
+945,Grafaiai,Poison,Normal,Toxic Monkey Pokémon,0.7,27.2,Unburden,Touch,Prankster,63,95,65,80,72,110,485,Gen 9
+946,Bramblin,Grass,Ghost,Tumbleweed Pokémon,0.6,0.6,Rider,,Infiltrator,40,65,30,45,35,60,275,Gen 9
+947,Brambleghast,Grass,Ghost,Tumbleweed Pokémon,1.2,6.0,Rider,,Infiltrator,55,115,70,80,70,90,480,Gen 9
+948,Toedscool,Ground,Grass,Woodear Pokémon,0.9,33.0,Might,,,40,40,35,50,100,70,335,Gen 9
+949,Toedscruel,Ground,Grass,Woodear Pokémon,1.9,58.0,Might,,,80,70,65,80,120,100,515,Gen 9
+950,Klawf,Rock,,Ambush Pokémon,1.3,79.0,Shell,Armor,Regenerator,70,100,115,35,55,75,450,Gen 9
+951,Capsakid,Grass,,Spicy Pepper Pokémon,0.3,3.0,Chlorophyll,Insomnia,Klutz,50,62,40,62,40,50,304,Gen 9
+952,Scovillain,Grass,Fire,Spicy Pepper Pokémon,0.9,15.0,Chlorophyll,Insomnia,Moody,65,108,65,108,65,75,486,Gen 9
+953,Rellor,Bug,,Rolling Pokémon,0.2,1.0,Eyes,,Shed,41,50,60,31,58,30,270,Gen 9
+954,Rabsca,Bug,Psychic,Rolling Pokémon,0.3,3.5,Synchronize,,Telepathy,75,50,85,115,100,45,470,Gen 9
+955,Flittle,Psychic,,Frill Pokémon,0.2,1.5,Anticipation,Frisk,Speed,30,35,30,55,30,75,255,Gen 9
+956,Espathra,Psychic,,Ostrich Pokémon,1.9,90.0,Opportunist,Frisk,Speed,95,60,60,101,60,105,481,Gen 9
+957,Tinkatink,Fairy,Steel,Metalsmith Pokémon,0.4,8.9,Breaker,Tempo,Pickpocket,50,45,45,35,64,58,297,Gen 9
+958,Tinkatuff,Fairy,Steel,Hammer Pokémon,0.7,59.1,Breaker,Tempo,Pickpocket,65,55,55,45,82,78,380,Gen 9
+959,Tinkaton,Fairy,Steel,Hammer Pokémon,0.7,112.8,Breaker,Tempo,Pickpocket,85,75,77,70,105,94,506,Gen 9
+960,Wiglett,Water,,Garden Eel Pokémon,1.2,1.8,Gooey,Rattled,Sand,10,55,25,35,25,95,245,Gen 9
+961,Wugtrio,Water,,Garden Eel Pokémon,1.2,5.4,Gooey,Rattled,Sand,35,100,50,50,70,120,425,Gen 9
+962,Bombirdier,Flying,Dark,Item Drop Pokémon,1.5,42.9,Pecks,Eye,Rocky,70,103,85,60,85,82,485,Gen 9
+963,Finizen,Water,,Dolphin Pokémon,1.3,60.2,Veil,,,70,45,40,45,40,75,315,Gen 9
+964,Palafin,Water,,Dolphin Pokémon,1.3,60.2,Hero,,,100,70,72,53,62,100,457,Gen 9
+965,Varoom,Steel,Poison,Single-Cyl Pokémon,1.0,35.0,Overcoat,,Slow,45,70,63,30,45,47,300,Gen 9
+966,Revavroom,Steel,Poison,Multi-Cyl Pokémon,1.8,120.0,Overcoat,,Filter,80,119,90,54,67,90,500,Gen 9
+967,Cyclizar,Dragon,Normal,Mount Pokémon,1.6,63.0,Skin,,Regenerator,70,95,65,85,65,121,501,Gen 9
+968,Orthworm,Steel,,Earthworm Pokémon,2.5,310.0,Eater,,Sand,70,85,145,60,55,65,480,Gen 9
+969,Glimmet,Rock,Poison,Ore Pokémon,0.7,8.0,Debris,,Corrosion,48,35,42,105,60,60,350,Gen 9
+970,Glimmora,Rock,Poison,Ore Pokémon,1.5,45.0,Debris,,Corrosion,83,55,90,130,81,86,525,Gen 9
+971,Greavard,Ghost,,Ghost Dog Pokémon,0.6,35.0,Pickup,,Fluffy,50,61,60,30,55,34,290,Gen 9
+972,Houndstone,Ghost,,Ghost Dog Pokémon,2.0,15.0,Rush,,Fluffy,72,101,100,50,97,68,488,Gen 9
+973,Flamigo,Flying,Fighting,Synchronize Pokémon,1.6,37.0,Scrappy,Feet,Costar,82,115,74,75,64,90,500,Gen 9
+974,Cetoddle,Ice,,Terra Whale Pokémon,1.2,45.0,Fat,Cloak,Sheer,108,68,45,30,40,43,334,Gen 9
+975,Cetitan,Ice,,Terra Whale Pokémon,4.5,700.0,Fat,Rush,Sheer,170,113,65,45,55,73,521,Gen 9
+976,Veluza,Water,Psychic,Jettison Pokémon,2.5,90.0,Breaker,,Sharpness,90,102,73,78,65,70,478,Gen 9
+977,Dondozo,Water,,Big Catfish Pokémon,12.0,220.0,Unaware,Oblivious,Water,150,100,115,65,65,35,530,Gen 9
+978,Tatsugiri,Dragon,Water,Mimicry Pokémon,0.3,8.0,Commander,,Storm,68,50,60,120,95,82,475,Gen 9
+979,Annihilape,Fighting,Ghost,Rage Monkey Pokémon,1.2,56.0,Spirit,Focus,Defiant,110,115,80,50,90,90,535,Gen 9
+980,Clodsire,Poison,Ground,Spiny Fish Pokémon,1.8,223.0,Point,Absorb,Unaware,130,75,60,45,100,20,430,Gen 9
+981,Farigiraf,Normal,Psychic,Long Neck Pokémon,3.2,160.0,Chew,Tail,Sap,120,90,70,110,70,60,520,Gen 9
+982,Dudunsparce,Normal,,Land Snake Pokémon,3.6,39.2,Grace,Away,Rattled,125,100,80,85,75,55,520,Gen 9
+983,Kingambit,Dark,Steel,Big Blade Pokémon,2.0,120.0,Defiant,Overlord,Pressure,100,135,120,60,85,50,550,Gen 9
+984,Great Tusk,Ground,Fighting,Paradox Pokémon,2.2,320.0,Protosynthesis,,,115,131,131,53,53,87,570,Gen 9
+985,Scream Tail,Fairy,Psychic,Paradox Pokémon,1.2,8.0,Protosynthesis,,,115,65,99,65,115,111,570,Gen 9
+986,Brute Bonnet,Grass,Dark,Paradox Pokémon,1.2,21.0,Protosynthesis,,,111,127,99,79,99,55,570,Gen 9
+987,Flutter Mane,Ghost,Fairy,Paradox Pokémon,1.4,4.0,Protosynthesis,,,55,55,55,135,135,135,570,Gen 9
+988,Slither Wing,Bug,Fighting,Paradox Pokémon,3.2,92.0,Protosynthesis,,,85,135,79,85,105,81,570,Gen 9
+989,Sandy Shocks,Electric,Ground,Paradox Pokémon,2.3,60.0,Protosynthesis,,,85,81,97,121,85,101,570,Gen 9
+990,Iron Treads,Ground,Steel,Paradox Pokémon,0.9,240.0,Drive,,,90,112,120,72,70,106,570,Gen 9
+991,Iron Bundle,Ice,Water,Paradox Pokémon,0.6,11.0,Drive,,,56,80,114,124,60,136,570,Gen 9
+992,Iron Hands,Fighting,Electric,Paradox Pokémon,1.8,380.7,Drive,,,154,140,108,50,68,50,570,Gen 9
+993,Iron Jugulis,Dark,Flying,Paradox Pokémon,1.3,111.0,Drive,,,94,80,86,122,80,108,570,Gen 9
+994,Iron Moth,Fire,Poison,Paradox Pokémon,1.2,36.0,Drive,,,80,70,60,140,110,110,570,Gen 9
+995,Iron Thorns,Rock,Electric,Paradox Pokémon,1.6,303.0,Drive,,,100,134,110,70,84,72,570,Gen 9
+996,Frigibax,Dragon,Ice,Ice Fin Pokémon,0.5,17.0,Exchange,,Ice,65,75,45,35,45,55,320,Gen 9
+997,Arctibax,Dragon,Ice,Ice Fin Pokémon,0.8,30.0,Exchange,,Ice,90,95,66,45,65,62,423,Gen 9
+998,Baxcalibur,Dragon,Ice,Ice Dragon Pokémon,2.1,210.0,Exchange,,Ice,115,145,92,75,86,87,600,Gen 9
+999,Gimmighoul,Ghost,,Coin Chest Pokémon,0.3,5.0,Rattled,,,45,30,70,75,70,10,300,Gen 9
+1000,Gholdengo,Steel,Ghost,Coin Entity Pokémon,1.2,30.0,Gold,,,87,60,95,133,91,84,550,Gen 9
+1001,Wo-Chien,Dark,Grass,Ruinous Pokémon,1.5,74.2,Ruin,,,85,85,100,95,135,70,570,Gen 9
+1002,Chien-Pao,Dark,Ice,Ruinous Pokémon,1.9,152.2,Ruin,,,80,120,80,90,65,135,570,Gen 9
+1003,Ting-Lu,Dark,Ground,Ruinous Pokémon,2.7,699.7,Ruin,,,155,110,125,55,80,45,570,Gen 9
+1004,Chi-Yu,Dark,Fire,Ruinous Pokémon,0.4,4.9,Ruin,,,55,80,80,135,120,100,570,Gen 9
+1005,Roaring Moon,Dragon,Dark,Paradox Pokémon,2.0,380.0,Protosynthesis,,,105,139,71,55,101,119,590,Gen 9
+1006,Iron Valiant,Fairy,Fighting,Paradox Pokémon,1.4,35.0,Drive,,,74,130,90,120,60,116,590,Gen 9
+1007,Koraidon,Fighting,Dragon,Paradox Pokémon,2.5,303.0,Pulse,,,100,135,115,85,100,135,670,Gen 9
+1008,Miraidon,Electric,Dragon,Paradox Pokémon,3.5,240.0,Engine,,,100,85,100,135,115,135,670,Gen 9
+1009,Walking Wake,Water,Dragon,Paradox Pokémon,3.5,280.0,Protosynthesis,,,99,83,91,125,83,109,590,Gen 9
+1010,Iron Leaves,Grass,Psychic,Paradox Pokémon,1.5,125.0,Drive,,,90,130,88,70,108,104,590,Gen 9
