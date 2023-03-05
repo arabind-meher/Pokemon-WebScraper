@@ -15,21 +15,6 @@ logging.basicConfig(
 
 
 class Pokemon:
-    index = '/html/body/main/div[2]/div[2]/div/div[1]/div[2]/table/tbody/tr[1]/td/strong'
-    name = '/html/body/main/h1'
-    types = '/html/body/main/div[2]/div[2]/div/div[1]/div[2]/table/tbody/tr[2]/td'
-    species = '/html/body/main/div[2]/div[2]/div/div[1]/div[2]/table/tbody/tr[3]/td'
-    height = '/html/body/main/div[2]/div[2]/div/div[1]/div[2]/table/tbody/tr[4]/td'
-    weight = '/html/body/main/div[2]/div[2]/div/div[1]/div[2]/table/tbody/tr[5]/td'
-    ability = '/html/body/main/div[2]/div[2]/div/div[1]/div[2]/table/tbody/tr[6]/td'
-    hp = '/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]'
-    attack = '/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div[2]/table/tbody/tr[2]/td[1]'
-    defence = '/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div[2]/table/tbody/tr[3]/td[1]'
-    sp_attack = '/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div[2]/table/tbody/tr[4]/td[1]'
-    sp_defence = '/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div[2]/table/tbody/tr[5]/td[1]'
-    speed = '/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div[2]/table/tbody/tr[6]/td[1]'
-    total = '/html/body/main/div[2]/div[2]/div/div[2]/div[1]/div[2]/table/tfoot/tr/td'
-    generation = '/html/body/main/p'
 
     def __init__(self):
         logging.info('START')
@@ -42,31 +27,50 @@ class Pokemon:
         logging.info('END')
 
     def get_pokemon_data(self):
-        url = 'https://pokemondb.net/pokedex/bulbasaur'
         self.browser.get('https://pokemondb.net/pokedex/bulbasaur')
 
         pokemon_dict = dict()
+        iterator = 0
+
         while True:
-            pokemon_dict[self.browser.find_element(By.XPATH, self.index).text.strip()] = self.scrape_data(self.browser)
+            tabs = self.browser.find_element(
+                By.CLASS_NAME, 'sv-tabs-tab-list'
+            ).find_elements(
+                By.CLASS_NAME, 'sv-tabs-tab'
+            )
+
+            if len(tabs) == 1:
+                pokemon_dict[iterator] = self.scrape_data(self.browser, self.get_xpath(1), True)
+            else:
+                for i, tab in enumerate(tabs, 1):
+                    tab.click()
+                    pokemon_dict[iterator] = self.scrape_data(tab, self.get_xpath(i), False)
+                    iterator += 1
 
             try:
                 self.browser.find_element(By.CLASS_NAME, 'entity-nav-next').click()
+                iterator += 1
             except NoSuchElementException:
                 break
 
-        path = 'data/pokemon.csv'
-        DataFrame(pokemon_dict.values()).to_csv(path, index=False)
-        logging.info(f'CSV file created at "{path}"')
+        path = 'data/pokemon.xlsx'
+        DataFrame(pokemon_dict.values()).to_excel(path, sheet_name='pokemon', index=False)
+        logging.info(f'Excel file created at "{path}"')
 
-    def scrape_data(self, driver):
+    @staticmethod
+    def scrape_data(driver, xpath, is_bowser):
         pokemon_data = dict()
 
-        pokemon_data['Index'] = int(driver.find_element(By.XPATH, self.index).text.strip())
-        pokemon_data['Name'] = driver.find_element(By.XPATH, self.name).text.strip().title()
+        pokemon_data['Index'] = int(driver.find_element(By.XPATH, xpath['index']).text.strip())
+
+        if is_bowser:
+            pokemon_data['Name'] = driver.find_element(By.XPATH, xpath['heading']).text.strip().title()
+        else:
+            pokemon_data['Name'] = driver.text.strip()
 
         logging.info(f"{'%04d' % pokemon_data['Index']}: {pokemon_data['Name']}")
 
-        types = driver.find_element(By.XPATH, self.types).text.strip().title().split()
+        types = driver.find_element(By.XPATH, xpath['types']).text.strip().title().split()
         if len(types) == 1:
             pokemon_data['Type 1'] = types[0]
             pokemon_data['Type 2'] = None
@@ -75,12 +79,28 @@ class Pokemon:
             pokemon_data['Type 2'] = types[1]
         del types
 
-        pokemon_data['Species'] = driver.find_element(By.XPATH, self.species).text.strip().title()
-        pokemon_data['Height'] = float(driver.find_element(By.XPATH, self.height).text.strip().split('m')[0].strip())
-        pokemon_data['Weight'] = float(driver.find_element(By.XPATH, self.weight).text.strip().split('kg')[0].strip())
+        pokemon_data['Species'] = driver.find_element(By.XPATH, xpath['species']).text.strip().title()
 
-        ability = driver.find_element(By.XPATH, self.ability).text.strip().split('\n')
-        if len(ability) == 1:
+        try:
+            pokemon_data['Height'] = float(driver.find_element(
+                By.XPATH, xpath['height']
+            ).text.strip().split('m')[0].strip())
+        except ValueError:
+            pokemon_data['Height'] = None
+
+        try:
+            pokemon_data['Weight'] = float(driver.find_element(
+                By.XPATH, xpath['weight']
+            ).text.strip().split('kg')[0].strip())
+        except ValueError:
+            pokemon_data['Weight'] = None
+
+        ability = driver.find_element(By.XPATH, xpath['ability']).text.strip().split('\n')
+        if ability[0] == '—':
+            pokemon_data['Ability 1'] = None
+            pokemon_data['Ability 2'] = None
+            pokemon_data['Ability H'] = None
+        elif len(ability) == 1:
             pokemon_data['Ability 1'] = ability[0].split()[-1]
             pokemon_data['Ability 2'] = None
             pokemon_data['Ability H'] = None
@@ -94,19 +114,40 @@ class Pokemon:
             pokemon_data['Ability H'] = ability[2].split()[0]
         del ability
 
-        pokemon_data['HP'] = int(driver.find_element(By.XPATH, self.hp).text.strip())
-        pokemon_data['Attack'] = int(driver.find_element(By.XPATH, self.attack).text.strip())
-        pokemon_data['Defence'] = int(driver.find_element(By.XPATH, self.defence).text.strip())
-        pokemon_data['Sp_Attack'] = int(driver.find_element(By.XPATH, self.sp_attack).text.strip())
-        pokemon_data['Sp_Defence'] = int(driver.find_element(By.XPATH, self.sp_defence).text.strip())
-        pokemon_data['Speed'] = int(driver.find_element(By.XPATH, self.speed).text.strip())
-        pokemon_data['Total'] = int(driver.find_element(By.XPATH, self.total).text.strip())
-        
-        generation = driver.find_element(By.XPATH, self.generation).text.strip()
+        pokemon_data['HP'] = int(driver.find_element(By.XPATH, xpath['hp']).text.strip())
+        pokemon_data['Attack'] = int(driver.find_element(By.XPATH, xpath['attack']).text.strip())
+        pokemon_data['Defence'] = int(driver.find_element(By.XPATH, xpath['defence']).text.strip())
+        pokemon_data['Sp_Attack'] = int(driver.find_element(By.XPATH, xpath['sp_attack']).text.strip())
+        pokemon_data['Sp_Defence'] = int(driver.find_element(By.XPATH, xpath['sp_defence']).text.strip())
+        pokemon_data['Speed'] = int(driver.find_element(By.XPATH, xpath['speed']).text.strip())
+        pokemon_data['Total'] = int(driver.find_element(By.XPATH, xpath['total']).text.strip())
+
+        generation = driver.find_element(By.XPATH, xpath['generation']).text.strip()
         pokemon_data['Generation'] = f"Gen {generation.split('Generation')[1].split('.')[0].strip()}"
         del generation
 
         return pokemon_data
+
+    @staticmethod
+    def get_xpath(itr):
+        xpath = dict()
+        xpath['index'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[1]/td/strong'
+        xpath['heading'] = '/html/body/main/h1'
+        xpath['types'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[2]/td'
+        xpath['species'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[3]/td'
+        xpath['height'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[4]/td'
+        xpath['weight'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[5]/td'
+        xpath['ability'] = f'//html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[6]/td'
+        xpath['hp'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]'
+        xpath['attack'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tbody/tr[2]/td[1]'
+        xpath['defence'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tbody/tr[3]/td[1]'
+        xpath['sp_attack'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tbody/tr[4]/td[1]'
+        xpath['sp_defence'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tbody/tr[5]/td[1]'
+        xpath['speed'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tbody/tr[6]/td[1]'
+        xpath['total'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tfoot/tr/td'
+        xpath['generation'] = '/html/body/main/p'
+
+        return xpath
 
 
 if __name__ == '__main__':
