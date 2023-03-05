@@ -40,11 +40,11 @@ class Pokemon:
             )
 
             if len(tabs) == 1:
-                pokemon_dict[iterator] = self.scrape_data(self.browser, self.get_xpath(1), True)
+                pokemon_dict[iterator] = self.scrape_data(self.browser, self.get_xpath(1))
             else:
                 for i, tab in enumerate(tabs, 1):
                     tab.click()
-                    pokemon_dict[iterator] = self.scrape_data(tab, self.get_xpath(i), False)
+                    pokemon_dict[iterator] = self.scrape_data(tab, self.get_xpath(i), tab)
                     iterator += 1
 
             try:
@@ -58,17 +58,21 @@ class Pokemon:
         logging.info(f'Excel file created at "{path}"')
 
     @staticmethod
-    def scrape_data(driver, xpath, is_bowser):
+    def scrape_data(driver, xpath, tab=None):
         pokemon_data = dict()
 
         pokemon_data['Index'] = int(driver.find_element(By.XPATH, xpath['index']).text.strip())
+        pokemon_data['Name'] = driver.find_element(By.XPATH, xpath['name']).text.strip().title()
 
-        if is_bowser:
-            pokemon_data['Name'] = driver.find_element(By.XPATH, xpath['heading']).text.strip().title()
+        if tab and pokemon_data['Name'] != tab.text.strip():
+            pokemon_data['Form'] = tab.text.strip()
         else:
-            pokemon_data['Name'] = driver.text.strip()
+            pokemon_data['Form'] = None
 
-        logging.info(f"{'%04d' % pokemon_data['Index']}: {pokemon_data['Name']}")
+        if pokemon_data['Form']:
+            logging.info(f"{'%04d' % pokemon_data['Index']}: {'%15s' % pokemon_data['Name']} = {pokemon_data['Form']}")
+        else:
+            logging.info(f"{'%04d' % pokemon_data['Index']}: {'%15s' % pokemon_data['Name']} = {pokemon_data['Name']}")
 
         types = driver.find_element(By.XPATH, xpath['types']).text.strip().title().split()
         if len(types) == 1:
@@ -132,7 +136,7 @@ class Pokemon:
     def get_xpath(itr):
         xpath = dict()
         xpath['index'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[1]/td/strong'
-        xpath['heading'] = '/html/body/main/h1'
+        xpath['name'] = '/html/body/main/h1'
         xpath['types'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[2]/td'
         xpath['species'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[3]/td'
         xpath['height'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[1]/div[2]/table/tbody/tr[4]/td'
