@@ -105,17 +105,17 @@ class Pokemon:
             pokemon_data['Ability 2'] = None
             pokemon_data['Ability H'] = None
         elif len(ability) == 1:
-            pokemon_data['Ability 1'] = ability[0].split()[-1]
+            pokemon_data['Ability 1'] = ability[0].split('.')[-1].strip()
             pokemon_data['Ability 2'] = None
             pokemon_data['Ability H'] = None
         elif len(ability) == 2:
-            pokemon_data['Ability 1'] = ability[0].split()[-1]
+            pokemon_data['Ability 1'] = ability[0].split('.')[-1].strip()
             pokemon_data['Ability 2'] = None
-            pokemon_data['Ability H'] = ability[1].split()[0]
+            pokemon_data['Ability H'] = ability[1].split('(')[0].strip()
         else:
-            pokemon_data['Ability 1'] = ability[0].split()[-1]
-            pokemon_data['Ability 2'] = ability[1].split()[-1]
-            pokemon_data['Ability H'] = ability[2].split()[0]
+            pokemon_data['Ability 1'] = ability[0].split('.')[-1].strip()
+            pokemon_data['Ability 2'] = ability[1].split('.')[-1].strip()
+            pokemon_data['Ability H'] = ability[2].split('(')[0].strip()
         del ability
 
         pokemon_data['HP'] = int(driver.find_element(By.XPATH, xpath['hp']).text.strip())
