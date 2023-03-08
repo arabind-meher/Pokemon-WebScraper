@@ -1,10 +1,14 @@
 import logging
-from os.path import join
+from os import mkdir
+from os.path import join, exists
 
 from pandas import DataFrame
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
+
+from database import Base, session, engine
+from model import PokemonDB
 
 logging.basicConfig(
     filename='logs/pokemon.log',
@@ -15,9 +19,17 @@ logging.basicConfig(
 
 
 class Pokemon:
-
     def __init__(self):
         logging.info('START')
+
+        if not exists('data'):
+            mkdir('data')
+
+        if not exists('logs'):
+            mkdir('logs')
+
+        self.initialize_db()
+        logging.info('DATABASE CREATED')
 
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--incognito")
@@ -25,6 +37,10 @@ class Pokemon:
         self.get_pokemon_data()
 
         logging.info('END')
+
+    @staticmethod
+    def initialize_db():
+        Base.metadata.create_all(engine)
 
     def get_pokemon_data(self):
         self.browser.get('https://pokemondb.net/pokedex/bulbasaur')
@@ -40,11 +56,16 @@ class Pokemon:
             )
 
             if len(tabs) == 1:
-                pokemon_dict[iterator] = self.scrape_data(self.browser, self.get_xpath(1))
+                poke_data = self.scrape_data(self.browser, self.get_xpath(1))
+                pokemon_dict[iterator] = poke_data
+                self.upload_data(poke_data)
             else:
                 for i, tab in enumerate(tabs, 1):
                     tab.click()
-                    pokemon_dict[iterator] = self.scrape_data(tab, self.get_xpath(i), tab)
+                    poke_data = self.scrape_data(tab, self.get_xpath(i), tab)
+                    pokemon_dict[iterator] = poke_data
+                    self.upload_data(poke_data)
+
                     iterator += 1
 
             try:
@@ -53,9 +74,36 @@ class Pokemon:
             except NoSuchElementException:
                 break
 
-        path = 'data/pokemon.xlsx'
+        path = join('data', 'pokemon.xlsx')
         DataFrame(pokemon_dict.values()).to_excel(path, sheet_name='pokemon', index=False)
         logging.info(f'Excel file created at "{path}"')
+
+    @staticmethod
+    def upload_data(poke_data):
+        db = session()
+
+        pokemon = PokemonDB()
+        pokemon.index = poke_data['Index']
+        pokemon.name = poke_data['Name']
+        pokemon.form = poke_data['Form']
+        pokemon.type_1 = poke_data['Type 1']
+        pokemon.type_2 = poke_data['Type 2']
+        pokemon.species = poke_data['Species']
+        pokemon.height = poke_data['Height']
+        pokemon.weight = poke_data['Weight']
+        pokemon.ability_1 = poke_data['Ability 1']
+        pokemon.ability_2 = poke_data['Ability 2']
+        pokemon.ability_h = poke_data['Ability H']
+        pokemon.hp = poke_data['HP']
+        pokemon.attack = poke_data['Attack']
+        pokemon.defence = poke_data['Defence']
+        pokemon.sp_attack = poke_data['Sp_Attack']
+        pokemon.sp_defence = poke_data['Sp_Defence']
+        pokemon.speed = poke_data['Speed']
+        pokemon.total = poke_data['Total']
+
+        db.add(pokemon)
+        db.commit()
 
     @staticmethod
     def scrape_data(driver, xpath, tab=None):
@@ -126,10 +174,6 @@ class Pokemon:
         pokemon_data['Speed'] = int(driver.find_element(By.XPATH, xpath['speed']).text.strip())
         pokemon_data['Total'] = int(driver.find_element(By.XPATH, xpath['total']).text.strip())
 
-        generation = driver.find_element(By.XPATH, xpath['generation']).text.strip()
-        pokemon_data['Generation'] = f"Gen {generation.split('Generation')[1].split('.')[0].strip()}"
-        del generation
-
         return pokemon_data
 
     @staticmethod
@@ -149,7 +193,6 @@ class Pokemon:
         xpath['sp_defence'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tbody/tr[5]/td[1]'
         xpath['speed'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tbody/tr[6]/td[1]'
         xpath['total'] = f'/html/body/main/div[2]/div[2]/div[{itr}]/div[2]/div[1]/div[2]/table/tfoot/tr/td'
-        xpath['generation'] = '/html/body/main/p'
 
         return xpath
 

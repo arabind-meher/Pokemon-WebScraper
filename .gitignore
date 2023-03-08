@@ -5,3 +5,4 @@ driver/
 storage/
 test.py
 xpath.py
+credentials.env
