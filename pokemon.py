@@ -34,7 +34,12 @@ class Pokemon:
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--incognito")
         self.browser = webdriver.Chrome(join('driver', 'chromedriver.exe'), chrome_options=chrome_options)
+        self.db = session()
+
         self.get_pokemon_data()
+
+        self.db.close()
+        self.browser.close()
 
         logging.info('END')
 
@@ -78,10 +83,7 @@ class Pokemon:
         DataFrame(pokemon_dict.values()).to_excel(path, sheet_name='pokemon', index=False)
         logging.info(f'Excel file created at "{path}"')
 
-    @staticmethod
-    def upload_data(poke_data):
-        db = session()
-
+    def upload_data(self, poke_data):
         pokemon = PokemonDB()
         pokemon.index = poke_data['Index']
         pokemon.name = poke_data['Name']
@@ -102,8 +104,8 @@ class Pokemon:
         pokemon.speed = poke_data['Speed']
         pokemon.total = poke_data['Total']
 
-        db.add(pokemon)
-        db.commit()
+        self.db.add(pokemon)
+        self.db.commit()
 
     @staticmethod
     def scrape_data(driver, xpath, tab=None):

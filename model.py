@@ -4,7 +4,7 @@ from database import Base
 
 
 class PokemonDB(Base):
-    __tablename__ = 'pokemon_db'
+    __tablename__ = 'pokemon'
 
     id = Column(Integer, primary_key=True, index=True)
     index = Column(Integer, nullable=False)
